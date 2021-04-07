@@ -1,3 +1,15 @@
+"TODO
+"
+" 1) TODO highlighting
+" 2) TODO tree
+" 3) Projects & etc
+" 4) Num lists
+" 5) set number only in normal mode
+" 6) emoji instead of NORMAL. INSERT, etc
+" 7) Tabman
+" 8) Better status line
+"
+
 set nocompatible
 
 syntax on

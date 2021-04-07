@@ -1,7 +1,14 @@
 " Mappings
 
-nnoremap <S-h> :call ToggleHiddenAll()<CR>
+nnoremap <leader>ww <C-W>w
+nnoremap <leader>qq <C-W>q
 
+nnoremap <leader>wq :wq<CR>
+
+nnoremap <C-n> :NERDTreeToggle<CR>
+
+nnoremap <S-h> :call ToggleHiddenAll()<CR>
+" ^[OQ
 nmap <F9> :TagbarToggle<CR>
 
 nmap <ESC>t :hi Normal guibg=NONE ctermbg=NONE<CR>
@@ -13,7 +20,10 @@ map <Space> <Leader>
 " let mapleader=","
 nnoremap <silent> <C-f> :FZF<CR>
 
-map <F2> :terminal<CR>
+map <S-F2> :terminal<CR>
+map <F2> :vertical terminal<CR>
+tmap <F2> exit<CR>
+
 map <F4> :QuickRun<CR>
 
 vmap <TAB> >gv
@@ -21,22 +31,29 @@ vmap <S-TAB> <gv
 
 inoremap kj <Esc>
 inoremap jj <Esc>
+inoremap jk <Esc>
+
+nnoremap xx a
+nnoremap xc a
+nnoremap cx a
 
 inoremap zz <Esc>:
 nnoremap zz <Esc>:
 
-nnoremap <leader>- :vertical resize +5<CR>
-nnoremap <leader>+ :vertical resize -5<CR>
+nnoremap <leader><Left> :vertical resize +5<CR>
+nnoremap <leader><Right> :vertical resize -5<CR>
+nnoremap <leader><Down> :resize -5 <CR>
+nnoremap <leader><Up> :resize +5 <CR>
 
 nnoremap `j <C-W>j
 nnoremap `k <C-W>k
 nnoremap `h <C-W>h
 nnoremap `l <C-W>l
 nnoremap `q <C-W>q
-nnoremap `w <C-w>w
-" nnoremap `a <C-w>Q
-nnoremap `V <C-w>V
-nnoremap `s <C-w>s
+nnoremap `w <C-W>w
+" nnoremap `a <C-W>Q
+" nnoremap `V <C-W>V
+nnoremap `s <C-W>s
 
 map <leader>\ :Explore<CR>
 
@@ -220,12 +237,5 @@ xmap <C-k>     <Plug>(neosnippet_expand_target)
 " \    "\<Plug>(neosnippet_expand_or_jump)" : "\<TAB>"
 " smap <expr><TAB> neosnippet#expandable_or_jumpable() ?
 " \ "\<Plug>(neosnippet_expand_or_jump)" : "\<TAB>"
-
-
-
-
-
-
-
 
 
