@@ -264,24 +264,33 @@ function! LinterStatus() abort
     set statusline+=%{SyntasticStatuslineFlag()}
     set statusline+=%*
 
+"     set statusline+=%{get(b:,'gitsigns_status','')}
+
     " let g:deoplete#enable_at_startup = 1
 endfunction
-"set laststatus=2
-"set statusline=
-"set statusline+=\ %l
-"set statusline+=\ %*
-"set statusline+=\ ‹‹
-"set statusline+=\ %f\ %*
-"set statusline+=\ ››
-"set statusline+=\ %m
-"set statusline+=\ %F
-"set statusline+=%=
-"set statusline+=\ %{LinterStatus()}
-"set statusline+=\ ‹‹
-""set statusline+=\ %{strftime('%R', getftime(expand('%')))}
-"set statusline+=\ ::
-"set statusline+=\ %n
-"set statusline+=\ ››\ %*
+
+
+
+
+set laststatus=2
+set statusline=
+set statusline+=\ %l
+set statusline+=\ %*
+set statusline+=\ ‹‹
+set statusline+=\ %f\ %*
+set statusline+=\ ››
+set statusline+=\ %m
+set statusline+=\ %F
+set statusline+=%=
+set statusline+=\ %{LinterStatus()}
+set statusline+=\ ‹‹
+"set statusline+=\ %{strftime('%R', getftime(expand('%')))}
+set statusline+=\ ::
+set statusline+=\ %n
+set statusline+=\ ››\ %*
+
+
+
 
 
 set guioptions= "Отключаем панели прокрутки в GUI
@@ -386,15 +395,25 @@ command! -nargs=0 OR   :call     CocAction('runCommand', 'editor.action.organize
 set statusline^=%{coc#status()}%{get(b:,'coc_current_function','')}
 
 
+" Color highlighting
+let g:Hexokinase_highlighters = ['backgroundfull']
 
+" Ranger settings
+let g:ranger_command_override = 'ranger --cmd "set show_hidden=true"'
 
 " DEOPLATE
-
 " For conceal markers.
 if has('conceal')
     set conceallevel=2 concealcursor=niv
 endif
 
+
+" Emoji
+set completefunc=emoji#complete
+let g:gitgutter_sign_added = emoji#for('small_blue_diamond')
+let g:gitgutter_sign_modified = emoji#for('small_orange_diamond')
+let g:gitgutter_sign_removed = emoji#for('small_red_triangle')
+let g:gitgutter_sign_modified_removed = emoji#for('collision')
 
 
 " Colorscheme
