@@ -22,7 +22,7 @@ Plug 'tpope/vim-commentary'
 Plug 'Yggdroot/indentLine'
 Plug 'rrethy/vim-hexokinase', { 'do': 'make hexokinase' }
 Plug 'vwxyutarooo/nerdtree-devicons-syntax'
-
+Plug 'kien/tabman.vim'
 Plug 'kyazdani42/nvim-web-devicons' " Recommended (for coloured icons)
 Plug 'ryanoasis/vim-devicons' " Icons without colours
 " Plug 'akinsho/nvim-bufferline.lua'
