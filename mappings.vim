@@ -29,7 +29,7 @@ map <Space> <Leader>
 " let mapleader=","
 nnoremap <silent> <C-f> :FZF<CR>
 
-map <S-F2> :terminal<CR>
+map <F3> :terminal<CR>
 map <F2> :vertical terminal<CR>
 tmap <F2> exit<CR>
 
