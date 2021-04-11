@@ -13,6 +13,7 @@
 set nocompatible
 
 syntax on
+set hidden
 
 set expandtab
 set smarttab
@@ -94,6 +95,11 @@ if 0 != argc()
 
     silent! autocmd VimEnter * wincmd w
 end
+
+let NERDTreeShowHidden=1
+let g:NERDTreeGitStatusUseNerdFonts = 1 " you should install nerdfonts by yourself. default: 0
+let g:NERDTreeGitStatusShowIgnored = 1 " a heavy feature may cost much more time. default: 0
+
 
 " Comments
 autocmd FileType javascript,javascriptreact,typescript,typescriptreact setlocal commentstring={/*\ %s\ */}
@@ -475,6 +481,15 @@ let g:airline_theme='onedark'
 " Also need Meslo for icons https://github.com/andreberg/Meslo-Font
 set guifont=JetBrains\ Mono\ 13
 
+" Exit Vim if NERDTree is the only window left.
+autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTabTree() |
+    \ quit | endif
+
+
+autocmd BufNewFile,BufRead *.tsx,*.jsx set filetype=typescriptreact
+
 highlight ALEError ctermbg=none cterm=underline
 highlight ALEWarning ctermbg=none cterm=underline
+
+let g:ale_completion_autoimport = 1
 

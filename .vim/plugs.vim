@@ -10,6 +10,12 @@ endif
 
 call plug#begin('~/.vim/plugged')
 Plug 'scrooloose/nerdtree'            " Project and file navigation
+Plug 'Xuyuanp/nerdtree-git-plugin'
+Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
+Plug 'PhilRunninger/nerdtree-buffer-ops'
+
+Plug 'onsails/lspkind-nvim'
+
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'fisadev/FixedTaskList.vim'      " Pending tasks list
@@ -37,6 +43,7 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 "     \'python', 'dart', 'javascript', 'vim'], 'branch': 'release', 'do': { -> coc#util#install()}}
 Plug 'weirongxu/coc-explorer'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
 " Plug 'jiangmiao/auto-pairs'
 Plug 'jpalardy/vim-slime'
 Plug 'tpope/vim-pathogen'
@@ -45,7 +52,6 @@ Plug 'joshdick/onedark.vim'
 " Snake game. :Snake
 Plug 'zyedidia/vim-snake'
 Plug 'rakr/vim-one'
-Plug 'vim-scripts/gruvbox'
 Plug 'kiteco/vim-plugin'
 Plug 'Keithbsmiley/investigate.vim'
 Plug 'Townk/vim-autoclose'
@@ -96,7 +102,16 @@ Plug 'moll/vim-node'
 Plug 'pangloss/vim-javascript',      { 'for': 'javascript' }
 Plug 'jelera/vim-javascript-syntax', { 'for': 'javascript' }
 Plug 'othree/javascript-libraries-syntax.vim', { 'for': 'javascript' }
+Plug 'moll/vim-node', { 'for': 'javascript' }
+Plug 'yuezk/vim-js'
+Plug 'maxmellon/vim-jsx-pretty'
+Plug 'jparise/vim-graphql'        " GraphQL syntax
 " PLug 'mxw/vim-jsx'
+
+" TS
+Plug 'HerringtonDarkholme/yats.vim'
+Plug 'leafgarland/typescript-vim'
+Plug 'peitalin/vim-jsx-typescript'
 
 
 " Html / Css
@@ -130,6 +145,7 @@ Plug 'zeis/vim-kolor'
 Plug 'mopp/mopkai.vim'
 Plug 'gosukiwi/vim-atom-dark'
 Plug 'tomasr/molokai'
+Plug 'morhetz/gruvbox'
 Plug 'fmoralesc/molokayo'
 Plug 'jacoborus/tender.vim'
 Plug 'danilo-augusto/vim-afterglow'

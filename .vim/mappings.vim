@@ -25,9 +25,10 @@ nmap <ESC>t :hi Normal guibg=NONE ctermbg=NONE<CR>
 
 map <F7> :setlocal spell! spelllang=en,ru<CR>
 
-map <Space> <Leader>
+" map <Space> <Leader>
 " let mapleader=","
 nnoremap <silent> <C-f> :FZF<CR>
+nnoremap <silent> <F12> :Files<CR>
 
 map <F3> :terminal<CR>
 map <F2> :vertical terminal<CR>
@@ -60,7 +61,6 @@ nnoremap `h <C-W>h
 nnoremap `l <C-W>l
 nnoremap `q <C-W>q
 nnoremap `w <C-W>w
-" nnoremap `a <C-W>Q
 nnoremap `v <C-W>v
 nnoremap `s <C-W>s
 
@@ -77,8 +77,6 @@ inoremap <leader>t     <Esc>:tabnext<CR>
 
 nnoremap <leader>T     :tabprevious<CR>
 inoremap <leader>T     <Esc>:tabprevious<CR>
-
-cmap install PlugInstall
 
 cmap Wq wq
 cmap WQ wq
