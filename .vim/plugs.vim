@@ -22,7 +22,11 @@ Plug 'tpope/vim-commentary'
 Plug 'Yggdroot/indentLine'
 Plug 'rrethy/vim-hexokinase', { 'do': 'make hexokinase' }
 Plug 'vwxyutarooo/nerdtree-devicons-syntax'
-Plug 'ryanoasis/vim-devicons'
+Plug 'kien/tabman.vim'
+Plug 'kyazdani42/nvim-web-devicons' " Recommended (for coloured icons)
+Plug 'ryanoasis/vim-devicons' " Icons without colours
+" Plug 'akinsho/nvim-bufferline.lua'
+Plug 'junegunn/vim-emoji'
 Plug 'preservim/nerdcommenter'
 "Plug 'Shougo/deoplete.nvim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
@@ -75,6 +79,8 @@ Plug 'idanarye/vim-merginal'
 Plug 'junegunn/gv.vim'
 Plug 'airblade/vim-gitgutter'
 
+Plug 'nvim-lua/plenary.nvim'
+Plug 'lewis6991/gitsigns.nvim'
 
 " Erlang / Elixir
 Plug 'elixir-editors/vim-elixir'
@@ -145,7 +151,7 @@ Plug 'crusoexia/vim-monokai'
 Plug 'vim-airline/vim-airline-themes'
 
 
-Plug 'francoiscarbol/ranger.vim'
+Plug 'francoiscabrol/ranger.vim'
 Plug 'rbgrouleff/bclose.vim'
 
 " Other
@@ -163,9 +169,6 @@ Plug 'osyo-manga/vim-watchdogs'
 Plug 'thinca/vim-quickrun'
 Plug 'Shougo/vimproc.vim', {'do' : 'make'}
 Plug 'dannyob/quickfixstatus'
-
-
-
 
 Plug 'skywind3000/asyncrun.vim'
 Plug 'Chiel92/vim-autoformat'

@@ -1,4 +1,4 @@
-# Этот файл viminfo автоматически создан Vim 8.2.
+# Этот файл viminfo автоматически создан Vim 8.1.
 # Его можно (осторожно!) редактировать.
 
 # Viminfo version
@@ -11,953 +11,1569 @@
 # hlsearch on (H) or off (h):
 ~h
 # Последний Шаблон поиска:
-~MSle0~/er>w
+~MSle0~/'
 
 # Последняя строка для замены:
 $
 
 # Командная строка, история (начиная от свежего к старому):
 :wq
-|2,0,1617815929,,"wq"
-:zzzzz
-|2,0,1617814049,,"zzzzz"
-:split  terminal
-|2,0,1617813642,,"split  terminal"
-:split vertical terminal
-|2,0,1617813633,,"split vertical terminal"
-:split terminal
-|2,0,1617813622,,"split terminal"
-:st terminal
-|2,0,1617813606,,"st terminal"
-:tmap <F2> exit
-|2,0,1617813516,,"tmap <F2> exit"
-:160
-|2,0,1617813492,,"160"
-:145
-|2,0,1617813265,,"145"
-:w
-|2,0,1617813231,,"w"
-:W
-|2,0,1617813230,,"W"
-:176
-|2,0,1617813212,,"176"
-:vsp ~/.zshrc
-|2,0,1617812952,,"vsp ~/.zshrc"
-:vertical terminal
-|2,0,1617812171,,"vertical terminal"
-:vsp ~/.vimrc
-|2,0,1617811466,,"vsp ~/.vimrc"
-:NERDTreeToggle
-|2,0,1617811394,,"NERDTreeToggle"
-:vertical resize -5
-|2,0,1617810226,,"vertical resize -5"
-:res +5
-|2,0,1617806343,,"res +5"
-:res -5
-|2,0,1617806334,,"res -5"
-:res + 5
-|2,0,1617806329,,"res + 5"
-:lefta vsp ~/.vimr
-|2,0,1617806265,,"lefta vsp ~/.vimr"
-:rightb vsp ~/vimrc
-|2,0,1617806253,,"rightb vsp ~/vimrc"
-:lefta vsp ~/.vimrc
-|2,0,1617806244,,"lefta vsp ~/.vimrc"
-:lefta sp ~/.vimrc
-|2,0,1617806217,,"lefta sp ~/.vimrc"
-:rightb vsp ~/.vimrc
-|2,0,1617806206,,"rightb vsp ~/.vimrc"
-:rightb sp ~/.vimrc
-|2,0,1617806165,,"rightb sp ~/.vimrc"
-:120
-|2,0,1617805895,,"120"
-:109
-|2,0,1617805892,,"109"
-:99
-|2,0,1617805887,,"99"
-:56
-|2,0,1617805884,,"56"
-:JCEnable
-|2,0,1617805755,,"JCEnable"
+|2,0,1618069439,,"wq"
+:419
+|2,0,1618068987,,"419"
+:set notermguicolors
+|2,0,1618067952,,"set notermguicolors"
+:set termguicolors
+|2,0,1618067928,,"set termguicolors"
+:let &t_8b="\<Esc>[48;2;%lu;%lu;%lum"
+|2,0,1618067922,,"let &t_8b=\"\\<Esc>[48;2;%lu;%lu;%lum\""
+:let &t_8f="\<Esc>[38;2;%lu;%lu;%lum"
+|2,0,1618067912,,"let &t_8f=\"\\<Esc>[38;2;%lu;%lu;%lum\""
+:FZF
+|2,0,1618067829,,"FZF"
 :PlugInstall
-|2,0,1617805666,,"PlugInstall"
-:vnew
-|2,0,1617805585,,"vnew"
-:s
-|2,0,1617805325,,"s"
-:help s
-|2,0,1617805173,,"help s"
-:vs ~/.vim/mappings.vim
-|2,0,1617805012,,"vs ~/.vim/mappings.vim"
-:hs ~/.vimrc
-|2,0,1617804769,,"hs ~/.vimrc"
+|2,0,1618067720,,"PlugInstall"
+:%s/:\([^:]\+\):/\=emoji#for(submatch(1), submatch(0))/g
+|2,0,1618065728,,"%s/:\\([^:]\\+\\):/\\=emoji#for(submatch(1), submatch(0))/g"
 :vs ~/.vim/plugs.vim
-|2,0,1617804705,,"vs ~/.vim/plugs.vim"
-:help colorizer
-|2,0,1617804581,,"help colorizer"
-:vs ~/.vimrc
-|2,0,1617804486,,"vs ~/.vimrc"
-::tab
-|2,0,1617804256,,":tab"
-:tab
-|2,0,1617804103,,"tab"
-:68
-|2,0,1617804026,,"68"
-:qW
-|2,0,1617803911,,"qW"
-:qw
-|2,0,1617803909,,"qw"
-:Qw
-|2,0,1617803907,,"Qw"
-:WQ
-|2,0,1617803885,,"WQ"
-:QW
-|2,0,1617803876,,"QW"
-:Wq
-|2,0,1617803862,,"Wq"
-:3
-|2,0,1617803452,,"3"
-:vs ~/.vim/mappings.vims
-|2,0,1617802516,,"vs ~/.vim/mappings.vims"
-:syntax on
-|2,0,1617801790,,"syntax on"
+|2,0,1618065615,,"vs ~/.vim/plugs.vim"
+:verbose set iskeyword
+|2,0,1618065492,,"verbose set iskeyword"
+:verbose set background
+|2,0,1618065482,,"verbose set background"
 :PlugClean
-|2,0,1617801255,,"PlugClean"
-:install
-|2,0,1617801179,,"install"
-:DBCommit
-|2,0,1617801063,,"DBCommit"
-:Format
-|2,0,1617800815,,"Format"
-:CocInstall coc-git
-|2,0,1617800439,,"CocInstall coc-git"
-:255
-|2,0,1617800397,,"255"
-:colorscheme onedark
-|2,0,1617799795,,"colorscheme onedark"
+|2,0,1618065293,,"PlugClean"
+:q!
+|2,0,1618064951,,"q!"
+:ALEFixSuggest
+|2,0,1618064920,,"ALEFixSuggest"
+:270
+|2,0,1618064854,,"270"
+:HexokinaseTurnOn
+|2,0,1618064685,,"HexokinaseTurnOn"
+:w
+|2,0,1618064216,,"w"
+:lefta vsp
+|2,0,1618064187,,"lefta vsp"
+:rightb vsp
+|2,0,1618064183,,"rightb vsp"
+:sp ~/.vim/mappings.vim
+|2,0,1618063796,,"sp ~/.vim/mappings.vim"
+:ws 
+|2,0,1618063659,,"ws "
+:NERDTreeToggle ~/prog/ruby/log4meal/
+|2,0,1616941254,,"NERDTreeToggle ~/prog/ruby/log4meal/"
+:colorscheme monokai
+|2,0,1616180897,,"colorscheme monokai"
 :colorscheme one
-|2,0,1617799778,,"colorscheme one"
-:235
-|2,0,1617798671,,"235"
+|2,0,1616180830,,"colorscheme one"
+:colorscheme onedark
+|2,0,1616180825,,"colorscheme onedark"
+:colorscheme Benokai
+|2,0,1616180810,,"colorscheme Benokai"
+:colorscheme elflord
+|2,0,1616180804,,"colorscheme elflord"
+:colorscheme getafe
+|2,0,1616180801,,"colorscheme getafe"
+:colorscheme atom-dark
+|2,0,1616180764,,"colorscheme atom-dark"
+:colorscheme darkblue
+|2,0,1616180758,,"colorscheme darkblue"
+:colorscheme 
+|2,0,1616180744,,"colorscheme "
+:colorscheme Chasing_Logic
+|2,0,1616180739,,"colorscheme Chasing_Logic"
+:colorscheme
+|2,0,1616180730,,"colorscheme"
+:colrtheme
+|2,0,1616180725,,"colrtheme"
+:230
+|2,0,1615647838,,"230"
+:RuboCop
+|2,0,1615467069,,"RuboCop"
+:rubydo
+|2,0,1615467067,,"rubydo"
+:Wq
+|2,0,1615311899,,"Wq"
+:CocInstall coc-explorer
+|2,0,1614777610,,"CocInstall coc-explorer"
+:595
+|2,0,1614777219,,"595"
+:CocList
+|2,0,1614695540,,"CocList"
+:220
+|2,0,1614695522,,"220"
+:200
+|2,0,1614443584,,"200"
+:1
+|2,0,1614436332,,"1"
+:echo &rtp
+|2,0,1614436176,,"echo &rtp"
+:592
+|2,0,1614435470,,"592"
+:PlugUpdate
+|2,0,1614435266,,"PlugUpdate"
+:190
+|2,0,1614435140,,"190"
+:q
+|2,0,1614435116,,"q"
+:638
+|2,0,1614434971,,"638"
+:180
+|2,0,1614434841,,"180"
+:140
+|2,0,1614434724,,"140"
+:Q
+|2,0,1614084963,,"Q"
+:CocConfig
+|2,0,1614084633,,"CocConfig"
+:CocInstall coc-elixir
+|2,0,1614084498,,"CocInstall coc-elixir"
+:250
+|2,0,1614002946,,"250"
+:W
+|2,0,1613988362,,"W"
+:set modifiable
+|2,0,1613985981,,"set modifiable"
+::set modifiable
+|2,0,1613985975,,":set modifiable"
+:exit
+|2,0,1613985970,,"exit"
+:close
+|2,0,1613985880,,"close"
+::silent! TroublesomeCommand
+|2,0,1613984619,,":silent! TroublesomeCommand"
+:terminal
+|2,0,1613983441,,"terminal"
+:term
+|2,0,1613983421,,"term"
+:QuickRun
+|2,0,1613982136,,"QuickRun"
+:227
+|2,0,1613981915,,"227"
 
 # Строка поиска, история (начиная от свежего к старому):
-?/er>w
-|2,1,1617811653,47,"er>w"
-?/er>q
-|2,1,1617811644,47,"er>q"
-?/<C-W>q
-|2,1,1617811594,47,"<C-W>q"
-?/<C-n>
-|2,1,1617811477,47,"<C-n>"
-?/er>n
-|2,1,1617811322,47,"er>n"
-?/<C-W>w
-|2,1,1617810559,47,"<C-W>w"
-?/<C-w
-|2,1,1617810532,47,"<C-w"
+?/'
+|2,1,1618069017,47,"'"
+?/q
+|2,1,1618068159,47,"q"
 ? \s\+$
-|2,1,1617810489,,"\\s\\+$"
-?/r>q
-|2,1,1617810472,47,"r>q"
-?/rightb vsp
-|2,1,1617806174,47,"rightb vsp"
-?/# alias
-|2,1,1617805846,47,"# alias"
-?/alias
-|2,1,1617805803,47,"alias"
-?/tc
-|2,1,1617805376,47,"tc"
-? @$
-|2,1,1617805119,,"@$"
-?/colori
-|2,1,1617804639,47,"colori"
-?/close
-|2,1,1617804490,47,"close"
-?/:tabclo
-|2,1,1617804448,47,":tabclo"
-?/:tab
-|2,1,1617804351,47,":tab"
-?/to
-|2,1,1617804071,47,"to"
+|2,1,1618067819,,"\\s\\+$"
+?/emoj
+|2,1,1618065623,47,"emoj"
+?/devi
+|2,1,1618065014,47,"devi"
+?/status
+|2,1,1618064763,47,"status"
+?/<C-s>
+|2,1,1618064122,47,"<C-s>"
 ? ^
-|2,1,1617803034,,"^"
-?/autocmd
-|2,1,1617801632,47,"autocmd"
-?/blame
-|2,1,1617801224,47,"blame"
-?/Leader>l
-|2,1,1617800628,47,"Leader>l"
-?/Leader>
-|2,1,1617800611,47,"Leader>"
-?/Leader
-|2,1,1617800590,47,"Leader"
-?/<leader>
-|2,1,1617800573,47,"<leader>"
-?/errorb
-|2,1,1617800476,47,"errorb"
-?/sonar
-|2,1,1617800416,47,"sonar"
-?/sour
-|2,1,1617800184,47,"sour"
-??plug
-|2,1,1617799731,63,"plug"
-?/map
-|2,1,1617799601,47,"map"
-?/C-s
-|2,1,1617799522,47,"C-s"
-?/C-V
-|2,1,1617799518,47,"C-V"
-?/C-v
-|2,1,1617799511,47,"C-v"
+|2,1,1618063775,,"^"
+?/hexoki
+|2,1,1618063710,47,"hexoki"
+?/<C-W>
+|2,1,1618063425,47,"<C-W>"
+?/ranger
+|2,1,1618061271,47,"ranger"
+?/sudo
+|2,1,1616938154,47,"sudo"
+?/colorsch
+|2,1,1616934974,47,"colorsch"
+?/colorsheme
+|2,1,1616934965,47,"colorsheme"
+?/colorsche
+|2,1,1616934883,47,"colorsche"
+?/emmet
+|2,1,1615647874,47,"emmet"
+?/resolved
+|2,1,1615388423,47,"resolved"
+?/argb
+|2,1,1615312131,47,"argb"
+?/trans
+|2,1,1615312118,47,"trans"
+?/1000
+|2,1,1615311951,47,"1000"
+?/900
+|2,1,1615311912,47,"900"
+?/800
+|2,1,1615311895,47,"800"
+?/108
+|2,1,1615311778,47,"108"
+?/error
+|2,1,1614782485,47,"error"
+?/paths
+|2,1,1614781817,47,"paths"
+?/consider
+|2,1,1614781348,47,"consider"
+?/assets
+|2,1,1614779425,47,"assets"
+?/mas
+|2,1,1614779647,47,"mas"
+?/precom
+|2,1,1614779463,47,"precom"
+?/maste
+|2,1,1614778649,47,"maste"
+?/space>
+|2,1,1614777820,47,"space>"
+?/<space
+|2,1,1614777814,47,"<space"
+?/<space>
+|2,1,1614777744,47,"<space>"
+?/neocli
+|2,1,1614777355,47,"neocli"
+?/asset
+|2,1,1614705646,47,"asset"
+?/err
+|2,1,1614697629,47,"err"
+?/Hold
+|2,1,1614437315,47,"Hold"
+?/CurcorHold
+|2,1,1614437309,47,"CurcorHold"
+?/ctrl
+|2,1,1614435870,47,"ctrl"
+?/ctlp
+|2,1,1614435858,47,"ctlp"
+?/CursorHold
+|2,1,1614435408,47,"CursorHold"
+?/ale
+|2,1,1614435196,47,"ale"
+?/coc#stat
+|2,1,1614434942,47,"coc#stat"
+?/pair
+|2,1,1614084908,47,"pair"
+?/fzf
+|2,1,1614004231,47,"fzf"
+?/endw
+|2,1,1614004172,47,"endw"
+?/DEOPlate
+|2,1,1614004081,47,"DEOPlate"
+?/C-q
+|2,1,1614003028,47,"C-q"
+?/C-1
+|2,1,1614003012,47,"C-1"
+?/indent
+|2,1,1614002852,47,"indent"
+?/indemt
+|2,1,1614002837,47,"indemt"
+?/<tab>
+|2,1,1614002619,47,"<tab>"
+?/list
+|2,1,1614000503,47,"list"
+?/coc.nvim'
+|2,1,1613999513,47,"coc.nvim'"
+?/NERD
+|2,1,1613988286,47,"NERD"
+?/tnor
+|2,1,1613986281,47,"tnor"
+?/tnore
+|2,1,1613986270,47,"tnore"
+?/NerdTree
+|2,1,1613984944,47,"NerdTree"
+?/sile
+|2,1,1613984702,47,"sile"
+?/F4
+|2,1,1613982105,47,"F4"
+?/F6
+|2,1,1613982081,47,"F6"
 
 # Выражение, история (начиная от свежего к старому):
 
 # Строка ввода, история (начиная от свежего к старому):
 @y
-|2,3,1617801264,,"y"
+|2,3,1618065211,,"y"
+@N
+|2,3,1614004191,,"N"
 
 # Строка отладки, история (начиная от свежего к старому):
 
 # Регистры:
-"0	LINE	0
-	nnoremap <leader><C--> resize +5 <CR>
-|3,0,0,1,1,0,1617807489,"nnoremap <leader><C--> resize +5 <CR>"
-"1	LINE	0
-	nnoremap <leader>q <C-W>q
-|3,0,1,1,1,0,1617811578,"nnoremap <leader>q <C-W>q"
-"2	LINE	0
+"0	CHAR	0
+	" \ '',
+	 " \ '                                                    ▟▙            ',
+	 " \ '                                                    ▝▘            ',
+	 " \ '            ██▃▅▇█▆▖  ▗▟████▙▖   ▄████▄   ██▄  ▄██  ██  ▗▟█▆▄▄▆█▙▖',
+	 " \ '            ██▛▔ ▝██  ██▄▄▄▄██  ██▛▔▔▜██  ▝██  ██▘  ██  ██▛▜██▛▜██',
+	 " \ '            ██    ██  ██▀▀▀▀▀▘  ██▖  ▗██   ▜█▙▟█▛   ██  ██  ██  ██',
+	 " \ '            ██    ██  ▜█▙▄▄▄▟▊  ▀██▙▟██▀   ▝████▘   ██  ██  ██  ██',
+	 " \ '            ▀▀    ▀▀   ▝▀▀▀▀▀     ▀▀▀▀       ▀▀     ▀▀  ▀▀  ▀▀  ▀▀',
+	 " \ '',
+	 " \ '',
+	 " \ '',
+	 " \]
 	
-	nmap <F9> :TagbarToggle<CR>
-|3,0,2,1,2,0,1617806878,"","nmap <F9> :TagbarToggle<CR>"
-"3	LINE	0
+|3,0,0,0,13,0,1618069130,"\" \\ '',"," \" \\ '                                                    ▟▙            ',"," \" \\ '                                                    ▝▘            ',"," \" \\ '            ██▃▅▇█▆▖  ▗▟████▙▖   ▄████▄   ██▄  ▄██  ██  ▗▟█▆▄▄▆█▙▖',",>160
+|<" \" \\ '            ██▛▔ ▝██  ██▄▄▄▄██  ██▛▔▔▜██  ▝██  ██▘  ██  ██▛▜██▛▜██',"," \" \\ '            ██    ██  ██▀▀▀▀▀▘  ██▖  ▗██   ▜█▙▟█▛   ██  ██  ██  ██',"," \" \\ '            ██    ██  ▜█▙▄▄▄▟▊  ▀██▙▟██▀   ▝████▘   ██  ██  ██  ██',",>126
+|<" \" \\ '            ▀▀    ▀▀   ▝▀▀▀▀▀     ▀▀▀▀       ▀▀     ▀▀  ▀▀  ▀▀  ▀▀',"," \" \\ '',"," \" \\ '',"," \" \\ '',"," \" \\]",""
+""1	CHAR	0
 	
-|3,0,3,1,1,0,1617806293,""
+	
+	
+	            " \'',
+	            " \'        ,--,                                                                                        ',
+	            " \'      ,--.\'|            ,--,    ,--,                                  ____                          ',
+	            " \'   ,--,  | :          ,--.\'|  ,--.\'|                                ,\'  , `.                        ',
+	            " \'\',---.\'|  : \'          |  | :  |  | :     ,---.                   ,-+-,.\' _ |                        ',
+	            " \'|   | : _\' |          :  : \'  :  : \'    \'   ,\'\               ,-+-. ;   , ||            ,--,  ,--,  ',
+	            " \':   : |.\'  |   ,---.  |  \' |  |  \' |   /   /   |             ,--.\'|\'   |  || ,--.--.    |\'. \/ .`|  ',
+	            " \'|   \' \'  ; :  /     \ \'  | |  \'  | |  .   ; ,. :            |   |  ,\', |  |,/       \   \'  \/  / ;  ',
+	            " \'\'   |  .\'. | /    /  ||  | :  |  | :  \'   | |: :            |   | /  | |--\'.--.  .-. |   \  \.\' /  ' ,
+	            " \'|   | :  | \'.    \' / |\'  : |__\'  : |__\'   | .; :            |   : |  | ,    \__\/: . .    \  ;  ;   ',
+	            " \'   : |  : ;\'   ;   /||  | \'.\'|  | \'.\'|   :    |            |   : |  |/     ," .--.; |   / \  \  \  ',
+	            " \'|   | \'  ,/ \'   |  / |;  :    ;  :    ;\   \  /___          |   | |`-\'     /  /  ,.  | ./__;   ;  \ ',
+	            " \';   : ;--\'  |   :    ||  ,   /|  ,   /  `----\'/  .\         |   ;/        ;  :   .\'   \\|   :/\  \ ; ',
+	            " \'|   ,/       \   \  /  ---`-\'  ---`-\'         \_ ; |        \'---\'         |  ,     .-./`---\'  `--`  ',
+	            " \'\'---\'         `----\'                          /  ,"                        `--`---\'                 ',
+	            " \'                                              \'--\'                                                   ',
+	            " \'',
+	            " \'',
+	            " \]
+	
+	
+|3,1,1,0,24,0,1618069384,"","","","            \" \\'',","            \" \\'        ,--,                                                                                        ',","            \" \\'      ,--.\\'|            ,--,    ,--,                                  ____                          ',","            \" \\'   ,--,  | :          ,--.\\'|  ,--.\\'|                                ,\\'  , `.                        ',",>131
+|<"            \" \\'\\',---.\\'|  : \\'          |  | :  |  | :     ,---.                   ,-+-,.\\' _ |                        ',","            \" \\'|   | : _\\' |          :  : \\'  :  : \\'    \\'   ,\\'\\               ,-+-. ;   , ||            ,--,  ,--,  ',","            \" \\':   : |.\\'  |   ,---.  |  \\' |  |  \\' |   /   /   |             ,--.\\'|\\'   |  || ,--.--.    |\\'. \\/ .`|  ',",>137
+|<"            \" \\'|   \\' \\'  ; :  /     \\ \\'  | |  \\'  | |  .   ; ,. :            |   |  ,\\', |  |,/       \\   \\'  \\/  / ;  ',","            \" \\'\\'   |  .\\'. | /    /  ||  | :  |  | :  \\'   | |: :            |   | /  | |--\\'.--.  .-. |   \\  \\.\\' /  ' ,","            \" \\'|   | :  | \\'.    \\' / |\\'  : |__\\'  : |__\\'   | .; :            |   : |  | ,    \\__\\/: . .    \\  ;  ;   ',",>135
+|<"            \" \\'   : |  : ;\\'   ;   /||  | \\'.\\'|  | \\'.\\'|   :    |            |   : |  |/     ,\" .--.; |   / \\  \\  \\  ',","            \" \\'|   | \\'  ,/ \\'   |  / |;  :    ;  :    ;\\   \\  /___          |   | |`-\\'     /  /  ,.  | ./__;   ;  \\ ',","            \" \\';   : ;--\\'  |   :    ||  ,   /|  ,   /  `----\\'/  .\\         |   ;/        ;  :   .\\'   \\\\|   :/\\  \\ ; ',",>135
+|<"            \" \\'|   ,/       \\   \\  /  ---`-\\'  ---`-\\'         \\_ ; |        \\'---\\'         |  ,     .-./`---\\'  `--`  ',","            \" \\'\\'---\\'         `----\\'                          /  ,\"                        `--`---\\'                 ',","            \" \\'                                              \\'--\\'                                                   ',","            \" \\'',","            \" \\'',","            \" \\]","",""
+"2	BLOCK	30
+	                               
+	                               
+	 ██▃▅▇█▆▖  ▗▟████▙▖   ▄████▄   
+	 ██▛▔ ▝██  ██▄▄▄▄██  ██▛▔▔▜██  
+	 ██    ██  ██▀▀▀▀▀▘  ██▖  ▗██  
+	 ██    ██  ▜█▙▄▄▄▟▊  ▀██▙▟██▀  
+	 ▀▀    ▀▀   ▝▀▀▀▀▀     ▀▀▀▀    
+|3,0,2,2,7,30,1618069301,"                               ","                               "," ██▃▅▇█▆▖  ▗▟████▙▖   ▄████▄   "," ██▛▔ ▝██  ██▄▄▄▄██  ██▛▔▔▜██  "," ██    ██  ██▀▀▀▀▀▘  ██▖  ▗██  "," ██    ██  ▜█▙▄▄▄▟▊  ▀██▙▟██▀  "," ▀▀    ▀▀   ▝▀▀▀▀▀     ▀▀▀▀    "
+"3	BLOCK	29
+	██▃▅▇█▆▖  ▗▟████▙▖   ▄████▄   
+	██▛▔ ▝██  ██▄▄▄▄██  ██▛▔▔▜██  
+	██    ██  ██▀▀▀▀▀▘  ██▖  ▗██  
+	██    ██  ▜█▙▄▄▄▟▊  ▀██▙▟██▀  
+	▀▀    ▀▀   ▝▀▀▀▀▀     ▀▀▀▀    
+|3,0,3,2,5,29,1618069220,"██▃▅▇█▆▖  ▗▟████▙▖   ▄████▄   ","██▛▔ ▝██  ██▄▄▄▄██  ██▛▔▔▜██  ","██    ██  ██▀▀▀▀▀▘  ██▖  ▗██  ","██    ██  ▜█▙▄▄▄▟▊  ▀██▙▟██▀  ","▀▀    ▀▀   ▝▀▀▀▀▀     ▀▀▀▀    "
 "4	LINE	0
-	map <leader>bd :Bclose<CR>
-|3,0,4,1,1,0,1617806292,"map <leader>bd :Bclose<CR>"
+	            \'',d
+|3,0,4,1,1,0,1618068472,"            \\'',d"
 "5	LINE	0
-	cmap lv rightb vsp
-	cmap ls below sp
-|3,0,5,1,2,0,1617806154,"cmap lv rightb vsp","cmap ls below sp"
-"6	CHAR	0
-	
-	map <leader>tn :tabnew<CR>
-	map <leader>tc :tabclose<CR>
-	
-|3,0,6,0,4,0,1617804160,"","map <leader>tn :tabnew<CR>","map <leader>tc :tabclose<CR>",""
+	Plug 'kyazdani42/nvim-web-devicons'
+|3,0,5,1,1,0,1618065055,"Plug 'kyazdani42/nvim-web-devicons'"
+"6	LINE	0
+	Plug 'ryanoasis/vim-devicons'
+|3,0,6,1,1,0,1618065054,"Plug 'ryanoasis/vim-devicons'"
 "7	LINE	0
-	nnoremap <C-t>     :tabnew<CR>
-	inoremap <C-t>     <Esc>:tabnew<CR>
-|3,0,7,1,2,0,1617804123,"nnoremap <C-t>     :tabnew<CR>","inoremap <C-t>     <Esc>:tabnew<CR>"
-"8	CHAR	0
 	
-	inoremap `j <C-W>j
-	inoremap `k <C-W>k
-	inoremap `h <C-W>h
-	inoremap `l <C-W>l
-	inoremap `q <C-W>q
-	inoremap `w <C-w>w
-	
-	
-|3,0,8,0,9,0,1617803769,"","inoremap `j <C-W>j","inoremap `k <C-W>k","inoremap `h <C-W>h","inoremap `l <C-W>l","inoremap `q <C-W>q","inoremap `w <C-w>w","",""
+|3,0,7,1,1,0,1618064214,""
+"8	LINE	0
+	nmap <C-s> :w<CR>
+|3,0,8,1,1,0,1618064213,"nmap <C-s> :w<CR>"
 "9	LINE	0
 	
-|3,0,9,1,1,0,1617803038,""
-""-	CHAR	0
-	>
-|3,1,36,0,1,0,1617813383,">"
+|3,0,9,1,1,0,1618063778,""
+"q	CHAR	0
+	�kl�kl�kl�kl�kl�kl�kl�kl�kl�kl
+|3,0,26,0,1,0,1618063925,"�kl�kl�kl�kl�kl�kl�kl�kl�kl�kl"
+"-	CHAR	0
+	L
+|3,0,36,0,1,0,1618067891,"L"
 
 # глобальные переменные:
-!J_KEYWORDS_MODS	LIS	['public', 'private', 'protected', 'static', 'final', 'synchronized', 'volatile', 'transient', 'native', 'strictfp', 'abstract']
-!RE_TYPE_ARGUMENT	STR	\%(?\s\+\%(extends\|super\)\s\+\)\=[a-zA-Z_$][a-zA-Z0-9_$]*\%(\s*\.\s*[a-zA-Z_$][a-zA-Z0-9_$]*\)*\%(\s*\[\s*\]\)*
-!RE_IDENTIFIER	STR	[a-zA-Z_$][a-zA-Z0-9_$]*
-!JC_MODIFIER_ABSTRACT	NUM	11
-!JC_MODIFIER_PUBLIC	NUM	1
-!RE_TYPE_WITH_ARGUMENTS_I	STR	271
-<[a-zA-Z_$][a-zA-Z0-9_$]*\s*<\%(?\s\+\%(extends\|super\)\s\+\)\=[a-zA-Z_$][a-zA-Z0-9_$]*\%(\s*\.\s*[a-zA-Z_$][a-zA-Z0-9_$]*\)*\%(\s*\[\s*\]\)*\%(\s*,\s*\%(?\s\+\%(extends\|super\)\s\+\)\=[a-zA-Z_$][a-zA-Z0-9_$]*\%(\s*\.\s*[a-zA-Z_$][a-zA-Z0-9_$]*\)*\%(\s*\[\s*\]\)*\)*>
-!JC_MODIFIER_NATIVE	NUM	9
-!RE_REFERENCE_TYPE	STR	[a-zA-Z_$][a-zA-Z0-9_$]*\%(\s*\.\s*[a-zA-Z_$][a-zA-Z0-9_$]*\)*\%(\s*\[\s*\]\)*
-!RE_TYPE_ARGUMENT_EXTENDS	STR	\%(?\s\+\%(extends\|super\)\s\+\)[a-zA-Z_$][a-zA-Z0-9_$]*\%(\s*\.\s*[a-zA-Z_$][a-zA-Z0-9_$]*\)*\%(\s*\[\s*\]\)*
-!RE_TYPE_WITH_ARGUMENTS	STR	548
-<[a-zA-Z_$][a-zA-Z0-9_$]*\s*<\%(?\s\+\%(extends\|super\)\s\+\)\=[a-zA-Z_$][a-zA-Z0-9_$]*\%(\s*\.\s*[a-zA-Z_$][a-zA-Z0-9_$]*\)*\%(\s*\[\s*\]\)*\%(\s*,\s*\%(?\s\+\%(extends\|super\)\s\+\)\=[a-zA-Z_$][a-zA-Z0-9_$]*\%(\s*\.\s*[a-zA-Z_$][a-zA-Z0-9_$]*\)*\%(\s*\[\s*\]\)*\)*>\%(\s*[a-zA-Z_$][a-zA-Z0-9_$]*\s*<\%(?\s\+\%(extends\|super\)\s\+\)\=[a-zA-Z_$][a-zA-Z0-9_$]*\%(\s*\.\s*[a-zA-Z_$][a-zA-Z0-9_$]*\)*\%(\s*\[\s*\]\)*\%(\s*,\s*\%(?\s\+\%(extends\|super\)\s\+\)\=[a-zA-Z_$][a-zA-Z0-9_$]*\%(\s*\.\s*[a-zA-Z_$][a-zA-Z0-9_$]*\)*\%(\s*\[\s*\]\)*\)*>\)*
-!RE_TYPE	STR	[a-zA-Z_$][a-zA-Z0-9_$]*\%(\s*\.\s*[a-zA-Z_$][a-zA-Z0-9_$]*\)*\%(\s*\[\s*\]\)*
-!RE_ARRAY_TYPE	STR	^\s*\([a-zA-Z_$][a-zA-Z0-9_$]*\%(\s*\.\s*[a-zA-Z_$][a-zA-Z0-9_$]*\)*\)\(\%(\s*\[\s*\]\)\+\)\s*$
-!JC_MODIFIER_FINAL	NUM	5
-!J_JSP_BUILTIN_OBJECTS	DIC	369
-<{'page': 'javax.servlet.jsp.HttpJspPage', 'application': 'javax.servlet.ServletContext', 'config': 'javax.servlet.ServletConfig', 'session': 'javax.servlet.http.HttpSession', 'out': 'javax.servlet.jsp.JspWriter', 'response': 'javax.servlet.http.HttpServletResponse', 'request': 'javax.servlet.http.HttpServletRequest', 'pageContext': 'javax.servlet.jsp.PageContext'}
-!J_ARRAY_TYPE_INFO	DIC	1107
-<{'tag': 'CLASSDEF', 'fields': [{'t': 'int', 'm': '1', 'n': 'length'}], 'name': '[', 'methods': [{'p': [], 'r': 'Object', 'd': 'Object clone()', 'm': '1', 'n': 'clone'}, {'p': ['Object'], 'r': 'boolean', 'd': 'boolean Object.equals(Object obj)', 'm': '1', 'n': 'equals'}, {'p': [], 'r': 'Class', 'd': 'Class Object.getClass()', 'm': '100010001', 'n': 'getClass'}, {'p': [], 'r': 'int', 'd': 'int Object.hashCode()', 'm': '100000001', 'n': 'hashCode'}, {'p': [], 'r': 'void', 'd': 'void Object.notify()', 'm': '100010001', 'n': 'notify'}, {'p': [], 'r': 'void', 'd': 'void Object.notifyAll()', 'm': '100010001', 'n': 'notifyAll'}, {'p': [], 'r': 'String', 'd': 'String Object.toString()', 'm': '1', 'n': 'toString'}, {'p': [], 'r': 'void', 'd': 'void Object.wait() throws InterruptedException', 'm': '10001', 'n': 'wait'}, {'p': ['long'], 'r': 'void', 'd': 'void Object.wait(long timeout) throws InterruptedException', 'm': '100010001', 'n': 'wait'}, {'p': ['long', 'int'], 'r': 'void', 'd': 'void Object.wait(long timeout, int nanos) throws InterruptedException', 'm': '10001', 'n': 'wait'}], 'ctors': []}
-!J_ARRAY_TYPE_MEMBERS	LIS	1041
-<[{'word': 'clone(', 'menu': 'Object clone()', 'kind': 'm', 'abbr': 'clone()'}, {'word': 'equals(', 'menu': 'boolean equals(Object)', 'kind': 'm', 'abbr': 'equals()'}, {'word': 'getClass(', 'menu': 'Class Object.getClass()', 'kind': 'm', 'abbr': 'getClass()'}, {'word': 'hashCode(', 'menu': 'int hashCode()', 'kind': 'm', 'abbr': 'hashCode()'}, {'word': 'length', 'menu': 'int', 'kind': 'f'}, {'word': 'notify(', 'menu': 'void Object.notify()', 'kind': 'm', 'abbr': 'notify()'}, {'word': 'notifyAll(', 'menu': 'void Object.notifyAll()', 'kind': 'm', 'abbr': 'notifyAll()'}, {'word': 'toString(', 'menu': 'String toString()', 'kind': 'm', 'abbr': 'toString()'}, {'word': 'wait(', 'menu': 'void Object.wait() throws InterruptedException', 'kind': 'm', 'abbr': 'wait()'}, {'word': 'wait(', 'menu': 'void Object.wait(long timeout) throws InterruptedException', 'kind': 'm', 'abbr': 'wait()', 'dup': 1}, {'word': 'wait(', 'menu': 'void Object.wait(long timeout, int nanos) throws InterruptedException', 'kind': 'm', 'abbr': 'wait()', 'dup': 1}]
-!JC_MODIFIER_PROTECTED	NUM	3
-!RE_TYPE_DECL_HEAD	STR	\(class\|interface\|enum\)[ \t\n\r]\+
-!JAVA_HOME	STR	
-!RE_TYPE_MODS	STR	\%(public\|protected\|private\|abstract\|static\|final\|strictfp\)
-!J_KEYWORDS_TYPE	LIS	['class', 'interface', 'enum']
-!RE_ANNOTATION	STR	@[a-zA-Z_][a-zA-Z0-9_$]*
-!RE_ARRAY_ACCESS	STR	^\s*\([a-zA-Z_$][a-zA-Z0-9_$]*\)\s*\(\[.*\]\)\+\s*$
-!RE_QUALID	STR	[a-zA-Z_$][a-zA-Z0-9_$]*\%(\s*\.\s*[a-zA-Z_$][a-zA-Z0-9_$]*\)*
-!RE_TYPE_ARGUMENTS	STR	<\%(?\s\+\%(extends\|super\)\s\+\)\=[a-zA-Z_$][a-zA-Z0-9_$]*\%(\s*\.\s*[a-zA-Z_$][a-zA-Z0-9_$]*\)*\%(\s*\[\s*\]\)*\%(\s*,\s*\%(?\s\+\%(extends\|super\)\s\+\)\=[a-zA-Z_$][a-zA-Z0-9_$]*\%(\s*\.\s*[a-zA-Z_$][a-zA-Z0-9_$]*\)*\%(\s*\[\s*\]\)*\)*>
-!RE_CASTING	STR	^\s*(\([a-zA-Z_$][a-zA-Z0-9_$]*\%(\s*\.\s*[a-zA-Z_$][a-zA-Z0-9_$]*\)*\))\s*\([a-zA-Z_$][a-zA-Z0-9_$]*\)\>
-!RE_KEYWORDS	STR	429
-<\<\%(boolean\|byte\|char\|int\|short\|long\|float\|double\|public\|private\|protected\|static\|final\|synchronized\|volatile\|transient\|native\|strictfp\|abstract\|class\|interface\|enum\|super\|this\|void\|assert\|break\|case\|catch\|const\|continue\|default\|do\|else\|extends\|finally\|for\|goto\|if\|implements\|import\|instanceof\|interface\|new\|package\|return\|switch\|throw\|throws\|try\|while\|true\|false\|null\)\>
-!J_KEYWORDS	LIS	530
-<['boolean', 'byte', 'char', 'int', 'short', 'long', 'float', 'double', 'public', 'private', 'protected', 'static', 'final', 'synchronized', 'volatile', 'transient', 'native', 'strictfp', 'abstract', 'class', 'interface', 'enum', 'super', 'this', 'void', 'assert', 'break', 'case', 'catch', 'const', 'continue', 'default', 'do', 'else', 'extends', 'finally', 'for', 'goto', 'if', 'implements', 'import', 'instanceof', 'interface', 'new', 'package', 'return', 'switch', 'throw', 'throws', 'try', 'while', 'true', 'false', 'null']
-!J_PRIMITIVE_TYPES	LIS	['boolean', 'byte', 'char', 'int', 'short', 'long', 'float', 'double']
-!RE_SELECT_OR_ACCESS	STR	^\s*\([a-zA-Z_$][a-zA-Z0-9_$]*\)\s*\(\[.*\]\)\=\s*$
 !FILE_SEP	STR	/
 !PATH_SEP	STR	:
-!RE_BRACKETS	STR	\%(\s*\[\s*\]\)
-!RE_TYPE_DECL	STR	\<\C\(\%(\%(public\|protected\|private\|abstract\|static\|final\|strictfp\)\s\+\)*\)\(class\|interface\|enum\)[ \t\n\r]\+\([a-zA-Z_$][a-zA-Z0-9_$]*\)[{< \t\n\r]
-!J_PRIMITIVE_TYPE_INFO	DIC	{'tag': 'CLASSDEF', 'name': '!', 'fields': [{'t': 'Class', 'm': '1', 'n': 'class'}]}
 
 # Глобальные отметки:
-'0  4  0  ~/code/NERD_tree_1
-|4,48,4,0,1617815930,"~/code/NERD_tree_1"
-'1  4  0  ~/code/NERD_tree_4
-|4,49,4,0,1617813562,"~/code/NERD_tree_4"
+'0  4  0  ~/NERD_tree_1
+|4,48,4,0,1618069440,"~/NERD_tree_1"
+'1  1  0  ~/NERD_tree_1
+|4,49,1,0,1618069361,"~/NERD_tree_1"
+'2  4  0  ~/NERD_tree_1
+|4,50,4,0,1618069361,"~/NERD_tree_1"
+'3  1  0  ~/NERD_tree_1
+|4,51,1,0,1618069309,"~/NERD_tree_1"
+'4  1  0  ~/NERD_tree_1
+|4,52,1,0,1618069309,"~/NERD_tree_1"
+'5  1  0  ~/NERD_tree_1
+|4,53,1,0,1618069309,"~/NERD_tree_1"
+'6  4  0  ~/NERD_tree_1
+|4,54,4,0,1618069309,"~/NERD_tree_1"
+'7  1  0  ~/NERD_tree_1
+|4,55,1,0,1618069305,"~/NERD_tree_1"
+'8  1  0  ~/NERD_tree_1
+|4,56,1,0,1618069305,"~/NERD_tree_1"
+'9  1  0  ~/NERD_tree_1
+|4,57,1,0,1618069305,"~/NERD_tree_1"
 
 # Список прыжков (сначала более свежие):
--'  4  0  ~/code/NERD_tree_1
-|4,39,4,0,1617815930,"~/code/NERD_tree_1"
--'  10  2  ~/code/NERD_tree_1
-|4,39,10,2,1617815801,"~/code/NERD_tree_1"
--'  1  0  ~/code/NERD_tree_1
-|4,39,1,0,1617815801,"~/code/NERD_tree_1"
--'  4  0  ~/code/NERD_tree_6
-|4,39,4,0,1617814054,"~/code/NERD_tree_6"
--'  6  0  ~/code/NERD_tree_6
-|4,39,6,0,1617814050,"~/code/NERD_tree_6"
--'  1  0  ~/code/NERD_tree_6
-|4,39,1,0,1617814050,"~/code/NERD_tree_6"
--'  4  0  ~/code/NERD_tree_4
-|4,39,4,0,1617813562,"~/code/NERD_tree_4"
--'  6  0  ~/code/NERD_tree_4
-|4,39,6,0,1617813559,"~/code/NERD_tree_4"
--'  1  0  ~/code/NERD_tree_4
-|4,39,1,0,1617813559,"~/code/NERD_tree_4"
--'  4  0  ~/code/NERD_tree_1
-|4,39,4,0,1617813547,"~/code/NERD_tree_1"
--'  13  2  ~/code/NERD_tree_1
-|4,39,13,2,1617813531,"~/code/NERD_tree_1"
--'  1  0  ~/code/NERD_tree_1
-|4,39,1,0,1617813531,"~/code/NERD_tree_1"
--'  4  0  ~/code/NERD_tree_3
-|4,39,4,0,1617813522,"~/code/NERD_tree_3"
--'  6  0  ~/code/NERD_tree_3
-|4,39,6,0,1617813520,"~/code/NERD_tree_3"
--'  1  0  ~/code/NERD_tree_3
-|4,39,1,0,1617813520,"~/code/NERD_tree_3"
--'  4  0  ~/code/NERD_tree_1
-|4,39,4,0,1617813500,"~/code/NERD_tree_1"
--'  10  2  ~/code/NERD_tree_1
-|4,39,10,2,1617813494,"~/code/NERD_tree_1"
--'  1  0  ~/code/NERD_tree_1
-|4,39,1,0,1617813494,"~/code/NERD_tree_1"
--'  4  0  ~/code/NERD_tree_1
-|4,39,4,0,1617813420,"~/code/NERD_tree_1"
--'  10  2  ~/code/NERD_tree_1
-|4,39,10,2,1617813418,"~/code/NERD_tree_1"
--'  1  0  ~/code/NERD_tree_1
-|4,39,1,0,1617813418,"~/code/NERD_tree_1"
--'  4  1  ~/code/NERD_tree_3
-|4,39,4,1,1617813413,"~/code/NERD_tree_3"
--'  6  0  ~/code/NERD_tree_3
-|4,39,6,0,1617813406,"~/code/NERD_tree_3"
--'  1  0  ~/code/NERD_tree_3
-|4,39,1,0,1617813406,"~/code/NERD_tree_3"
--'  4  0  ~/code/NERD_tree_1
-|4,39,4,0,1617813235,"~/code/NERD_tree_1"
--'  10  2  ~/code/NERD_tree_1
-|4,39,10,2,1617813233,"~/code/NERD_tree_1"
--'  1  0  ~/code/NERD_tree_1
-|4,39,1,0,1617813233,"~/code/NERD_tree_1"
--'  3  0  ~/code/NERD_tree_1
-|4,39,3,0,1617813045,"~/code/NERD_tree_1"
--'  4  0  ~/code/NERD_tree_1
-|4,39,4,0,1617813043,"~/code/NERD_tree_1"
--'  10  2  ~/code/NERD_tree_1
-|4,39,10,2,1617813043,"~/code/NERD_tree_1"
--'  1  0  ~/code/NERD_tree_1
-|4,39,1,0,1617813043,"~/code/NERD_tree_1"
--'  4  0  ~/code/NERD_tree_1
-|4,39,4,0,1617813042,"~/code/NERD_tree_1"
--'  10  2  ~/code/NERD_tree_1
-|4,39,10,2,1617813030,"~/code/NERD_tree_1"
--'  1  0  ~/code/NERD_tree_1
-|4,39,1,0,1617813030,"~/code/NERD_tree_1"
--'  4  0  ~/code/NERD_tree_7
-|4,39,4,0,1617813006,"~/code/NERD_tree_7"
--'  13  2  ~/code/NERD_tree_7
-|4,39,13,2,1617813003,"~/code/NERD_tree_7"
--'  1  0  ~/code/NERD_tree_7
-|4,39,1,0,1617813003,"~/code/NERD_tree_7"
--'  8  14  ~/NERD_tree_2
-|4,39,8,14,1617812655,"~/NERD_tree_2"
--'  10  2  ~/NERD_tree_2
-|4,39,10,2,1617812651,"~/NERD_tree_2"
--'  1  0  ~/NERD_tree_2
-|4,39,1,0,1617812651,"~/NERD_tree_2"
--'  4  0  ~/code/NERD_tree_4
-|4,39,4,0,1617812218,"~/code/NERD_tree_4"
--'  6  0  ~/code/NERD_tree_4
-|4,39,6,0,1617812209,"~/code/NERD_tree_4"
--'  1  0  ~/code/NERD_tree_4
-|4,39,1,0,1617812209,"~/code/NERD_tree_4"
--'  4  0  ~/code/NERD_tree_1
-|4,39,4,0,1617811658,"~/code/NERD_tree_1"
--'  13  2  ~/code/NERD_tree_1
-|4,39,13,2,1617811657,"~/code/NERD_tree_1"
--'  1  0  ~/code/NERD_tree_1
-|4,39,1,0,1617811657,"~/code/NERD_tree_1"
--'  1  0  ~/.vim/mappings.vim
-|4,39,1,0,1617811631,"~/.vim/mappings.vim"
--'  3  0  ~/code/NERD_tree_1
-|4,39,3,0,1617811627,"~/code/NERD_tree_1"
--'  4  0  ~/code/NERD_tree_1
-|4,39,4,0,1617811627,"~/code/NERD_tree_1"
--'  12  2  ~/code/NERD_tree_1
-|4,39,12,2,1617811619,"~/code/NERD_tree_1"
--'  1  0  ~/code/NERD_tree_1
-|4,39,1,0,1617811619,"~/code/NERD_tree_1"
--'  13  2  ~/code/NERD_tree_1
-|4,39,13,2,1617811619,"~/code/NERD_tree_1"
--'  1  0  ~/code/NERD_tree_1
-|4,39,1,0,1617811619,"~/code/NERD_tree_1"
--'  4  0  ~/code/NERD_tree_1
-|4,39,4,0,1617811608,"~/code/NERD_tree_1"
--'  13  2  ~/code/NERD_tree_1
-|4,39,13,2,1617811604,"~/code/NERD_tree_1"
--'  1  0  ~/code/NERD_tree_1
-|4,39,1,0,1617811604,"~/code/NERD_tree_1"
--'  4  1  ~/code/NERD_tree_1
-|4,39,4,1,1617811602,"~/code/NERD_tree_1"
--'  13  2  ~/code/NERD_tree_1
-|4,39,13,2,1617811598,"~/code/NERD_tree_1"
--'  1  0  ~/code/NERD_tree_1
-|4,39,1,0,1617811598,"~/code/NERD_tree_1"
--'  4  0  ~/code/NERD_tree_1
-|4,39,4,0,1617811572,"~/code/NERD_tree_1"
--'  13  2  ~/code/NERD_tree_1
-|4,39,13,2,1617811569,"~/code/NERD_tree_1"
--'  1  0  ~/code/NERD_tree_1
-|4,39,1,0,1617811569,"~/code/NERD_tree_1"
--'  4  0  ~/code/NERD_tree_1
-|4,39,4,0,1617811568,"~/code/NERD_tree_1"
--'  13  2  ~/code/NERD_tree_1
-|4,39,13,2,1617811565,"~/code/NERD_tree_1"
--'  1  0  ~/code/NERD_tree_1
-|4,39,1,0,1617811565,"~/code/NERD_tree_1"
--'  4  0  ~/code/NERD_tree_1
-|4,39,4,0,1617811563,"~/code/NERD_tree_1"
--'  13  2  ~/code/NERD_tree_1
-|4,39,13,2,1617811561,"~/code/NERD_tree_1"
--'  1  0  ~/code/NERD_tree_1
-|4,39,1,0,1617811561,"~/code/NERD_tree_1"
--'  4  0  ~/code/NERD_tree_1
-|4,39,4,0,1617811558,"~/code/NERD_tree_1"
--'  13  2  ~/code/NERD_tree_1
-|4,39,13,2,1617811555,"~/code/NERD_tree_1"
--'  1  0  ~/code/NERD_tree_1
-|4,39,1,0,1617811555,"~/code/NERD_tree_1"
--'  4  0  ~/code/NERD_tree_1
-|4,39,4,0,1617811552,"~/code/NERD_tree_1"
--'  13  2  ~/code/NERD_tree_1
-|4,39,13,2,1617811548,"~/code/NERD_tree_1"
--'  1  0  ~/code/NERD_tree_1
-|4,39,1,0,1617811548,"~/code/NERD_tree_1"
--'  4  0  ~/code/NERD_tree_1
-|4,39,4,0,1617811547,"~/code/NERD_tree_1"
--'  13  2  ~/code/NERD_tree_1
-|4,39,13,2,1617811522,"~/code/NERD_tree_1"
--'  1  0  ~/code/NERD_tree_1
-|4,39,1,0,1617811522,"~/code/NERD_tree_1"
--'  4  0  ~/code/NERD_tree_6
-|4,39,4,0,1617811518,"~/code/NERD_tree_6"
--'  4  0  ~/code/NERD_tree_6
-|4,39,4,0,1617811518,"~/code/NERD_tree_6"
--'  10  2  ~/code/NERD_tree_6
-|4,39,10,2,1617811511,"~/code/NERD_tree_6"
--'  1  0  ~/code/NERD_tree_6
-|4,39,1,0,1617811511,"~/code/NERD_tree_6"
--'  10  2  ~/code/NERD_tree_6
-|4,39,10,2,1617811511,"~/code/NERD_tree_6"
--'  1  0  ~/code/NERD_tree_6
-|4,39,1,0,1617811511,"~/code/NERD_tree_6"
--'  4  0  ~/code/NERD_tree_1
-|4,39,4,0,1617811432,"~/code/NERD_tree_1"
--'  13  2  ~/code/NERD_tree_1
-|4,39,13,2,1617811427,"~/code/NERD_tree_1"
--'  1  0  ~/code/NERD_tree_1
-|4,39,1,0,1617811427,"~/code/NERD_tree_1"
--'  6  0  ~/code/NERD_tree_4
-|4,39,6,0,1617811424,"~/code/NERD_tree_4"
--'  6  0  ~/code/NERD_tree_4
-|4,39,6,0,1617811424,"~/code/NERD_tree_4"
--'  13  2  ~/code/NERD_tree_4
-|4,39,13,2,1617811419,"~/code/NERD_tree_4"
--'  1  0  ~/code/NERD_tree_4
-|4,39,1,0,1617811419,"~/code/NERD_tree_4"
--'  13  2  ~/code/NERD_tree_4
-|4,39,13,2,1617811419,"~/code/NERD_tree_4"
--'  1  0  ~/code/NERD_tree_4
-|4,39,1,0,1617811419,"~/code/NERD_tree_4"
--'  5  37  ~/.vim/mappings.vim
-|4,39,5,37,1617811406,"~/.vim/mappings.vim"
--'  5  37  ~/.vim/mappings.vim
-|4,39,5,37,1617811406,"~/.vim/mappings.vim"
--'  1  0  ~/.vim/mappings.vim
-|4,39,1,0,1617811380,"~/.vim/mappings.vim"
--'  1  0  ~/.vim/mappings.vim
-|4,39,1,0,1617811379,"~/.vim/mappings.vim"
--'  3  0  ~/code/NERD_tree_4
-|4,39,3,0,1617811364,"~/code/NERD_tree_4"
--'  4  0  ~/code/NERD_tree_4
-|4,39,4,0,1617811364,"~/code/NERD_tree_4"
--'  3  0  ~/code/NERD_tree_4
-|4,39,3,0,1617811364,"~/code/NERD_tree_4"
--'  4  0  ~/code/NERD_tree_4
-|4,39,4,0,1617811364,"~/code/NERD_tree_4"
+-'  4  0  ~/NERD_tree_1
+|4,39,4,0,1618069440,"~/NERD_tree_1"
+-'  4  0  ~/NERD_tree_1
+|4,39,4,0,1618069440,"~/NERD_tree_1"
+-'  4  0  ~/NERD_tree_1
+|4,39,4,0,1618069440,"~/NERD_tree_1"
+-'  4  0  ~/NERD_tree_1
+|4,39,4,0,1618069440,"~/NERD_tree_1"
+-'  4  0  ~/NERD_tree_1
+|4,39,4,0,1618069440,"~/NERD_tree_1"
+-'  4  0  ~/NERD_tree_1
+|4,39,4,0,1618069440,"~/NERD_tree_1"
+-'  4  0  ~/NERD_tree_1
+|4,39,4,0,1618069440,"~/NERD_tree_1"
+-'  4  0  ~/NERD_tree_1
+|4,39,4,0,1618069440,"~/NERD_tree_1"
+-'  21  2  ~/NERD_tree_1
+|4,39,21,2,1618069397,"~/NERD_tree_1"
+-'  1  0  ~/NERD_tree_1
+|4,39,1,0,1618069397,"~/NERD_tree_1"
+-'  21  2  ~/NERD_tree_1
+|4,39,21,2,1618069397,"~/NERD_tree_1"
+-'  1  0  ~/NERD_tree_1
+|4,39,1,0,1618069397,"~/NERD_tree_1"
+-'  21  2  ~/NERD_tree_1
+|4,39,21,2,1618069397,"~/NERD_tree_1"
+-'  1  0  ~/NERD_tree_1
+|4,39,1,0,1618069397,"~/NERD_tree_1"
+-'  21  2  ~/NERD_tree_1
+|4,39,21,2,1618069397,"~/NERD_tree_1"
+-'  1  0  ~/NERD_tree_1
+|4,39,1,0,1618069397,"~/NERD_tree_1"
+-'  21  2  ~/NERD_tree_1
+|4,39,21,2,1618069397,"~/NERD_tree_1"
+-'  1  0  ~/NERD_tree_1
+|4,39,1,0,1618069397,"~/NERD_tree_1"
+-'  21  2  ~/NERD_tree_1
+|4,39,21,2,1618069397,"~/NERD_tree_1"
+-'  1  0  ~/NERD_tree_1
+|4,39,1,0,1618069397,"~/NERD_tree_1"
+-'  21  2  ~/NERD_tree_1
+|4,39,21,2,1618069397,"~/NERD_tree_1"
+-'  1  0  ~/NERD_tree_1
+|4,39,1,0,1618069397,"~/NERD_tree_1"
+-'  21  2  ~/NERD_tree_1
+|4,39,21,2,1618069397,"~/NERD_tree_1"
+-'  1  0  ~/NERD_tree_1
+|4,39,1,0,1618069397,"~/NERD_tree_1"
+-'  4  0  ~/NERD_tree_1
+|4,39,4,0,1618069361,"~/NERD_tree_1"
+-'  4  0  ~/NERD_tree_1
+|4,39,4,0,1618069361,"~/NERD_tree_1"
+-'  4  0  ~/NERD_tree_1
+|4,39,4,0,1618069361,"~/NERD_tree_1"
+-'  4  0  ~/NERD_tree_1
+|4,39,4,0,1618069361,"~/NERD_tree_1"
+-'  4  0  ~/NERD_tree_1
+|4,39,4,0,1618069361,"~/NERD_tree_1"
+-'  4  0  ~/NERD_tree_1
+|4,39,4,0,1618069361,"~/NERD_tree_1"
+-'  4  0  ~/NERD_tree_1
+|4,39,4,0,1618069361,"~/NERD_tree_1"
+-'  4  0  ~/NERD_tree_1
+|4,39,4,0,1618069361,"~/NERD_tree_1"
+-'  4  0  ~/NERD_tree_1
+|4,39,4,0,1618069361,"~/NERD_tree_1"
+-'  4  0  ~/NERD_tree_1
+|4,39,4,0,1618069361,"~/NERD_tree_1"
+-'  4  0  ~/NERD_tree_1
+|4,39,4,0,1618069361,"~/NERD_tree_1"
+-'  4  0  ~/NERD_tree_1
+|4,39,4,0,1618069361,"~/NERD_tree_1"
+-'  4  0  ~/NERD_tree_1
+|4,39,4,0,1618069361,"~/NERD_tree_1"
+-'  4  0  ~/NERD_tree_1
+|4,39,4,0,1618069361,"~/NERD_tree_1"
+-'  4  0  ~/NERD_tree_1
+|4,39,4,0,1618069361,"~/NERD_tree_1"
+-'  4  0  ~/NERD_tree_1
+|4,39,4,0,1618069361,"~/NERD_tree_1"
+-'  21  2  ~/NERD_tree_1
+|4,39,21,2,1618069345,"~/NERD_tree_1"
+-'  1  0  ~/NERD_tree_1
+|4,39,1,0,1618069345,"~/NERD_tree_1"
+-'  21  2  ~/NERD_tree_1
+|4,39,21,2,1618069345,"~/NERD_tree_1"
+-'  1  0  ~/NERD_tree_1
+|4,39,1,0,1618069345,"~/NERD_tree_1"
+-'  21  2  ~/NERD_tree_1
+|4,39,21,2,1618069345,"~/NERD_tree_1"
+-'  1  0  ~/NERD_tree_1
+|4,39,1,0,1618069345,"~/NERD_tree_1"
+-'  21  2  ~/NERD_tree_1
+|4,39,21,2,1618069345,"~/NERD_tree_1"
+-'  1  0  ~/NERD_tree_1
+|4,39,1,0,1618069345,"~/NERD_tree_1"
+-'  21  2  ~/NERD_tree_1
+|4,39,21,2,1618069345,"~/NERD_tree_1"
+-'  1  0  ~/NERD_tree_1
+|4,39,1,0,1618069345,"~/NERD_tree_1"
+-'  21  2  ~/NERD_tree_1
+|4,39,21,2,1618069345,"~/NERD_tree_1"
+-'  1  0  ~/NERD_tree_1
+|4,39,1,0,1618069345,"~/NERD_tree_1"
+-'  21  2  ~/NERD_tree_1
+|4,39,21,2,1618069345,"~/NERD_tree_1"
+-'  1  0  ~/NERD_tree_1
+|4,39,1,0,1618069345,"~/NERD_tree_1"
+-'  21  2  ~/NERD_tree_1
+|4,39,21,2,1618069345,"~/NERD_tree_1"
+-'  1  0  ~/NERD_tree_1
+|4,39,1,0,1618069345,"~/NERD_tree_1"
+-'  21  2  ~/NERD_tree_1
+|4,39,21,2,1618069345,"~/NERD_tree_1"
+-'  1  0  ~/NERD_tree_1
+|4,39,1,0,1618069345,"~/NERD_tree_1"
+-'  21  2  ~/NERD_tree_1
+|4,39,21,2,1618069345,"~/NERD_tree_1"
+-'  1  0  ~/NERD_tree_1
+|4,39,1,0,1618069345,"~/NERD_tree_1"
+-'  21  2  ~/NERD_tree_1
+|4,39,21,2,1618069345,"~/NERD_tree_1"
+-'  1  0  ~/NERD_tree_1
+|4,39,1,0,1618069345,"~/NERD_tree_1"
+-'  21  2  ~/NERD_tree_1
+|4,39,21,2,1618069345,"~/NERD_tree_1"
+-'  1  0  ~/NERD_tree_1
+|4,39,1,0,1618069345,"~/NERD_tree_1"
+-'  21  2  ~/NERD_tree_1
+|4,39,21,2,1618069345,"~/NERD_tree_1"
+-'  1  0  ~/NERD_tree_1
+|4,39,1,0,1618069345,"~/NERD_tree_1"
+-'  21  2  ~/NERD_tree_1
+|4,39,21,2,1618069345,"~/NERD_tree_1"
+-'  1  0  ~/NERD_tree_1
+|4,39,1,0,1618069345,"~/NERD_tree_1"
+-'  21  2  ~/NERD_tree_1
+|4,39,21,2,1618069345,"~/NERD_tree_1"
+-'  1  0  ~/NERD_tree_1
+|4,39,1,0,1618069345,"~/NERD_tree_1"
+-'  21  2  ~/NERD_tree_1
+|4,39,21,2,1618069345,"~/NERD_tree_1"
+-'  1  0  ~/NERD_tree_1
+|4,39,1,0,1618069345,"~/NERD_tree_1"
+-'  4  0  ~/NERD_tree_1
+|4,39,4,0,1618069309,"~/NERD_tree_1"
+-'  4  0  ~/NERD_tree_1
+|4,39,4,0,1618069309,"~/NERD_tree_1"
+-'  4  0  ~/NERD_tree_1
+|4,39,4,0,1618069309,"~/NERD_tree_1"
+-'  4  0  ~/NERD_tree_1
+|4,39,4,0,1618069309,"~/NERD_tree_1"
+-'  4  0  ~/NERD_tree_1
+|4,39,4,0,1618069309,"~/NERD_tree_1"
+-'  4  0  ~/NERD_tree_1
+|4,39,4,0,1618069309,"~/NERD_tree_1"
+-'  4  0  ~/NERD_tree_1
+|4,39,4,0,1618069309,"~/NERD_tree_1"
+-'  4  0  ~/NERD_tree_1
+|4,39,4,0,1618069309,"~/NERD_tree_1"
+-'  4  0  ~/NERD_tree_1
+|4,39,4,0,1618069309,"~/NERD_tree_1"
+-'  4  0  ~/NERD_tree_1
+|4,39,4,0,1618069309,"~/NERD_tree_1"
+-'  4  0  ~/NERD_tree_1
+|4,39,4,0,1618069309,"~/NERD_tree_1"
+-'  4  0  ~/NERD_tree_1
+|4,39,4,0,1618069309,"~/NERD_tree_1"
+-'  4  0  ~/NERD_tree_1
+|4,39,4,0,1618069309,"~/NERD_tree_1"
+-'  4  0  ~/NERD_tree_1
+|4,39,4,0,1618069309,"~/NERD_tree_1"
+-'  4  0  ~/NERD_tree_1
+|4,39,4,0,1618069309,"~/NERD_tree_1"
+-'  4  0  ~/NERD_tree_1
+|4,39,4,0,1618069309,"~/NERD_tree_1"
+-'  4  0  ~/NERD_tree_1
+|4,39,4,0,1618069309,"~/NERD_tree_1"
+-'  4  0  ~/NERD_tree_1
+|4,39,4,0,1618069309,"~/NERD_tree_1"
+-'  4  0  ~/NERD_tree_1
+|4,39,4,0,1618069309,"~/NERD_tree_1"
+-'  4  0  ~/NERD_tree_1
+|4,39,4,0,1618069309,"~/NERD_tree_1"
+-'  4  0  ~/NERD_tree_1
+|4,39,4,0,1618069309,"~/NERD_tree_1"
+-'  4  0  ~/NERD_tree_1
+|4,39,4,0,1618069309,"~/NERD_tree_1"
+-'  4  0  ~/NERD_tree_1
+|4,39,4,0,1618069309,"~/NERD_tree_1"
+-'  4  0  ~/NERD_tree_1
+|4,39,4,0,1618069309,"~/NERD_tree_1"
+-'  4  0  ~/NERD_tree_1
+|4,39,4,0,1618069309,"~/NERD_tree_1"
 
 # История местных отметок (от более свежих к старым):
 
-> ~/code/NERD_tree_1
-	*	1617815929	0
+> ~/NERD_tree_1
+	*	1618069439	0
 	"	4	0
 	.	1	0
 	+	1	0
 
 > ~/.vimrc
-	*	1617815928	0
-	"	10	22
-	^	10	23
-	.	10	22
-	+	64	0
-	+	83	0
-	+	64	0
-	+	64	25
-	+	83	0
-	+	87	0
-	+	84	0
-	+	112	0
-	+	113	0
-	+	132	0
-	+	133	0
-	+	168	0
-	+	179	0
-	+	195	0
-	+	198	45
-	+	201	45
-	+	202	45
-	+	203	44
-	+	204	44
-	+	225	0
-	+	240	0
-	+	241	0
-	+	242	0
-	+	351	0
-	+	357	0
-	+	369	0
-	+	378	0
-	+	388	0
-	+	392	0
-	+	64	0
-	+	64	29
-	+	64	0
-	+	65	22
-	+	389	0
-	+	392	0
-	+	402	0
-	+	380	0
-	+	382	0
-	+	385	0
-	+	383	88
-	+	116	47
-	+	413	1
-	+	414	1
-	+	415	1
-	+	116	50
-	+	41	0
-	+	42	0
-	+	29	20
-	+	31	2
-	+	38	3
-	+	42	0
-	+	21	17
-	+	26	10
-	+	24	14
-	+	44	30
-	+	45	0
-	+	46	0
-	+	14	0
-	+	15	9
-	+	15	0
-	+	57	0
-	+	55	7
-	+	57	14
-	+	60	0
-	+	125	0
-	+	126	0
-	+	125	14
-	+	35	12
-	+	57	0
-	+	37	0
-	+	35	13
-	+	36	0
-	+	57	0
-	+	1	0
-	+	12	0
-	+	1	5
-	+	3	21
-	+	4	1
-	+	3	1
-	+	4	14
-	+	5	19
-	+	6	14
-	+	7	35
-	+	8	22
-	+	9	12
-	+	8	41
-	+	9	11
-	+	10	22
+	*	1618069438	0
+	"	428	4
+	^	428	5
+	.	428	5
+	+	433	99
+	+	433	100
+	+	433	101
+	+	433	0
+	+	433	101
+	+	433	0
+	+	433	1
+	+	433	0
+	+	433	1
+	+	433	0
+	+	433	1
+	+	433	0
+	+	433	1
+	+	433	0
+	+	433	14
+	+	433	22
+	+	433	115
+	+	433	116
+	+	433	115
+	+	433	114
+	+	433	115
+	+	433	117
+	+	433	16
+	+	433	0
+	+	433	117
+	+	433	0
+	+	433	14
+	+	433	114
+	+	433	16
+	+	433	13
+	+	433	24
+	+	433	85
+	+	433	89
+	+	433	63
+	+	433	116
+	+	433	107
+	+	433	118
+	+	433	56
+	+	433	54
+	+	433	85
+	+	433	103
+	+	433	109
+	+	433	35
+	+	433	64
+	+	433	99
+	+	419	32
+	+	433	0
+	+	419	32
+	+	433	0
+	+	419	32
+	+	420	0
+	+	431	0
+	+	420	0
+	+	424	0
+	+	423	0
+	+	421	4
+	+	422	4
+	+	423	4
+	+	424	4
+	+	425	4
+	+	426	4
+	+	427	4
+	+	434	0
+	+	428	5
 
-> ~/code/NERD_tree_6
-	*	1617814052	0
-	"	4	0
+> ~/.vim/plugs.vim
+	*	1618068160	0
+	"	67	19
+	^	48	1
+	.	1	0
+	+	153	0
+	+	155	0
+	+	154	31
+	+	173	0
+	+	83	29
+	+	25	29
+	+	25	0
+	+	26	0
+	+	29	0
+	+	28	1
+	+	27	30
+	+	29	24
+	+	25	21
+	+	155	0
+	+	153	0
+	+	155	0
+	+	154	31
+	+	173	0
+	+	83	29
+	+	25	29
+	+	25	0
+	+	26	0
+	+	29	0
+	+	28	1
+	+	27	30
+	+	29	24
+	+	25	21
+	+	155	0
+	+	153	0
+	+	155	0
+	+	154	31
+	+	173	0
+	+	83	29
+	+	25	29
+	+	25	0
+	+	26	0
+	+	29	0
+	+	28	1
+	+	27	30
+	+	29	24
+	+	25	21
+	+	48	0
+	+	155	0
+	+	153	0
+	+	155	0
+	+	154	31
+	+	173	0
+	+	83	29
+	+	25	29
+	+	25	0
+	+	26	0
+	+	29	0
+	+	28	1
+	+	27	30
+	+	29	24
+	+	25	21
+	+	155	0
+	+	153	0
+	+	155	0
+	+	154	31
+	+	173	0
+	+	83	29
+	+	25	29
+	+	25	0
+	+	26	0
+	+	29	0
+	+	28	1
+	+	27	30
+	+	29	24
+	+	25	21
+	+	155	0
+	+	153	0
+	+	155	0
+	+	154	31
+	+	173	0
+	+	83	29
+	+	25	29
+	+	25	0
+	+	26	0
+	+	29	0
+	+	28	1
+	+	27	30
+	+	29	24
+	+	25	21
+	+	155	0
+	+	153	0
+	+	155	0
+	+	154	31
+	+	173	0
+	+	83	29
+	+	25	29
+	+	25	0
+	+	26	0
+	+	29	0
+	+	28	1
+	+	27	30
+	+	29	24
+	+	25	21
+	+	48	0
+	+	1	0
+
+> ~/src/NERD_tree_1
+	*	1618067842	0
+	"	4	6
 	.	1	0
 	+	1	0
 
-> ~/.zshrc
-	*	1617814050	0
-	"	24	44
-	^	163	7
-	.	163	6
-	+	168	0
-	+	171	0
-	+	168	16
-	+	169	20
-	+	170	15
-	+	168	0
-	+	169	0
-	+	170	0
-	+	162	14
-	+	163	6
-
-> ~/code/terminal
-	*	1617813653	0
+> ~/.vim/config%environments%production.rb.swp
+	*	1618067841	0
 	"	1	0
 
-> ~/code/vertical terminal
-	*	1617813634	0
+> ~/.vim/__Tagbar__.1
+	*	1618067803	0
 	"	1	0
+	.	4	0
+	+	4	0
 
-> ~/code/NERD_tree_4
-	*	1617813561	0
+> ~/src/TabManager
+	*	1618067801	0
+	"	1	0
+	.	4	0
+	+	1	0
+	+	4	0
+
+> ~/src/NERD_tree_2
+	*	1618067745	0
 	"	4	0
 	.	1	0
 	+	1	0
 
 > ~/.vim/mappings.vim
-	*	1617813546	0
-	"	25	17
-	^	25	18
-	.	25	17
-	+	2	2
-	+	2	0
-	+	66	0
-	+	61	18
-	+	63	0
-	+	67	0
-	+	64	40
-	+	63	32
-	+	64	24
-	+	64	18
-	+	63	0
+	*	1618067689	0
+	"	43	0
+	^	32	7
+	.	32	6
 	+	54	0
-	+	58	25
-	+	54	0
-	+	54	20
-	+	54	0
-	+	54	20
-	+	54	10
-	+	54	20
-	+	56	0
-	+	54	30
-	+	56	10
-	+	54	37
-	+	56	17
-	+	54	1
-	+	79	0
-	+	80	18
-	+	81	0
-	+	83	17
-	+	81	17
-	+	82	0
-	+	83	0
-	+	83	5
-	+	83	0
-	+	81	14
-	+	60	0
-	+	42	0
-	+	43	8
-	+	44	17
-	+	43	37
-	+	44	37
-	+	43	41
-	+	44	41
-	+	22	0
-	+	34	0
-	+	36	13
-	+	37	9
-	+	36	10
-	+	37	12
-	+	36	12
-	+	37	10
-	+	16	0
-	+	34	13
-	+	38	12
-	+	37	12
-	+	12	0
-	+	56	0
-	+	54	20
-	+	45	0
-	+	46	0
-	+	45	36
-	+	46	0
-	+	47	0
-	+	46	20
-	+	45	30
-	+	46	17
-	+	45	22
-	+	46	19
-	+	45	21
-	+	29	0
-	+	45	24
-	+	46	22
-	+	44	22
-	+	43	21
-	+	44	22
-	+	2	0
-	+	3	10
-	+	3	24
-	+	56	15
-	+	55	17
-	+	54	17
-	+	53	15
+	+	53	8
+	+	54	8
+	+	55	8
+	+	4	26
+	+	5	0
+	+	133	19
+	+	134	19
+	+	10	0
+	+	11	0
 	+	8	0
-	+	3	25
-	+	8	13
-	+	242	0
-	+	3	25
-	+	6	26
-	+	3	0
-	+	4	25
-	+	4	0
-	+	3	18
-	+	4	18
-	+	24	16
-	+	27	0
-	+	24	5
-	+	23	6
-	+	11	5
-	+	24	31
-	+	25	17
-
-> ~/code/NERD_tree_3
-	*	1617813522	0
-	"	4	0
-	.	1	0
-	+	1	0
-
-> ~/code/NERD_tree_7
-	*	1617813006	0
-	"	4	0
-	.	1	0
-	+	1	0
-
-> ~/NERD_tree_2
-	*	1617812655	0
-	"	8	14
-	.	1	0
-	+	1	0
-
-> ~/code/__Tagbar__.1
-	*	1617811508	0
-	"	32	4
-	.	109	0
-	+	307	0
-	+	210	0
-	+	209	0
-	+	109	0
-
-> ~/code/NERD_tree_2
-	*	1617810483	0
-	"	4	0
-	.	1	0
-	+	1	0
-
-> ~/NERD_tree_1
-	*	1617808350	0
-	"	4	0
-	.	1	0
-	+	1	0
+	+	21	0
+	+	8	10
+	+	11	8
+	+	13	24
+	+	22	0
+	+	19	21
+	+	13	26
+	+	19	0
+	+	12	0
+	+	19	0
+	+	13	26
+	+	14	0
+	+	19	0
+	+	14	26
+	+	15	36
+	+	16	0
+	+	17	0
+	+	19	0
+	+	16	17
+	+	16	21
+	+	16	41
+	+	19	0
+	+	17	17
+	+	18	0
+	+	17	41
+	+	15	14
+	+	16	14
+	+	17	14
+	+	13	4
+	+	64	10
+	+	177	25
+	+	181	18
+	+	52	16
+	+	54	0
+	+	53	8
+	+	54	8
+	+	55	8
+	+	4	26
+	+	5	0
+	+	12	0
+	+	133	19
+	+	134	19
+	+	10	0
+	+	11	0
+	+	8	0
+	+	21	0
+	+	8	10
+	+	11	8
+	+	13	24
+	+	22	0
+	+	19	21
+	+	13	26
+	+	19	0
+	+	12	0
+	+	19	0
+	+	13	26
+	+	14	0
+	+	19	0
+	+	14	26
+	+	15	36
+	+	16	0
+	+	17	0
+	+	19	0
+	+	16	17
+	+	16	21
+	+	16	41
+	+	19	0
+	+	17	17
+	+	18	0
+	+	17	41
+	+	15	14
+	+	16	14
+	+	17	14
+	+	13	4
+	+	64	10
+	+	177	25
+	+	181	18
+	+	52	16
+	+	54	0
+	+	53	8
+	+	54	8
+	+	55	8
+	+	4	26
+	+	5	0
+	+	26	17
+	+	26	0
+	+	89	8
+	+	26	0
+	+	32	6
 
 > ~/__Tagbar__.1
-	*	1617808300	0
-	"	88	4
-	^	603	8
-	.	106	0
-	+	1116	0
-	+	1101	0
-	+	1032	0
-	+	1030	0
-	+	1022	0
-	+	1003	0
-	+	936	0
-	+	919	0
-	+	902	0
-	+	886	0
-	+	806	0
-	+	726	0
-	+	645	0
-	+	565	0
-	+	564	0
-	+	476	0
-	+	388	0
-	+	298	0
-	+	206	0
-	+	109	0
-	+	107	0
-	+	106	0
+	*	1618066371	0
+	"	36	4
+	.	113	0
+	+	575	0
+	+	569	0
+	+	553	0
+	+	444	0
+	+	337	0
+	+	226	0
+	+	225	0
+	+	223	0
+	+	113	0
+
+> ~/NERD_tree_2
+	*	1618066366	0
+	"	4	0
+	.	1	0
+	+	1	0
+
+> ~/prog/ruby/log4meal/app/models/entry.rb
+	*	1618066244	0
+	"	8	0
+	^	4	0
+	.	4	0
+	+	8	3
+	+	9	0
+	+	2	18
+	+	3	83
+	+	5	0
+	+	4	0
+
+> ~/prog/ruby/log4meal/app/models/NERD_tree_1
+	*	1618065792	0
+	"	9	0
+	.	1	0
+	+	1	0
+
+> ~/prog/ruby/log4meal/app/models/user.rb
+	*	1618065791	0
+	"	1	0
+
+> ~/prog/ruby/log4meal/app/models/ability.rb
+	*	1618065769	0
+	"	5	0
+
+> ~/prog/ruby/log4meal/app/models/application_record.rb
+	*	1618065764	0
+	"	1	0
 
 > ~/NERD_tree_3
-	*	1617808289	0
+	*	1618065304	0
 	"	4	0
 	.	1	0
 	+	1	0
 
-> ~/.vim/plugs.vim
-	*	1617808285	0
-	"	1	0
-	^	22	25
-	.	23	0
-	+	1	1
-	+	179	1
-	+	9	9
-	+	10	0
-	+	1	0
-	+	2	0
-	+	1	22
-	+	183	0
-	+	18	1
-	+	22	26
-	+	23	56
-	+	23	0
+> ~/prog/ruby/log4meal/app/channels/application_cable/channel.rb
+	*	1618064824	0
+	"	4	2
 
-> ~/code/vim/NERD_tree_1
-	*	1617807731	0
-	"	11	18
-	.	1	0
-	+	1	0
-
-> ~/code/NERD_tree_5
-	*	1617806296	0
-	"	4	0
-	.	1	0
-	+	1	0
-
-> ~/.vimr
-	*	1617806295	0
-	"	1	0
-
-> ~/vimrc
-	*	1617806254	0
-	"	1	0
-
-> ~/src/dotfiles-arch/README.md
-	*	1617805922	0
-	"	1	0
-
-> ~/npm-debug.log
-	*	1617805609	0
-	"	1	0
+> ~/.vim/coc-settings.json
+	*	1618064230	0
+	"	98	0
 
 > ~/NERD_tree_4
-	*	1617805606	0
+	*	1618063872	0
 	"	4	0
 	.	1	0
 	+	1	0
 
-> ~/NERD_tree_13
-	*	1617805414	0
+> ~/.vim/NERD_tree_1
+	*	1618063524	0
+	"	6	0
+	.	1	0
+	+	1	0
+
+> ~/src/vim-files/NERD_tree_1
+	*	1618063350	0
+	"	4	0
+	.	1	0
+	+	1	0
+
+> ~/.zshrc
+	*	1618063314	0
+	"	25	0
+	^	155	26
+	.	155	25
+	+	16	0
+	+	17	0
+	+	133	0
+	+	132	0
+	+	133	13
+	+	134	13
+	+	135	14
+	+	136	0
+	+	137	27
+	+	138	62
+	+	139	0
+	+	138	63
+	+	153	56
+	+	154	0
+	+	153	9
+	+	139	0
+	+	140	0
+	+	141	32
+	+	142	32
+	+	143	40
+	+	153	0
+	+	143	41
+	+	144	30
+	+	146	36
+	+	145	45
+	+	146	37
+	+	147	23
+	+	149	27
+	+	2	41
+	+	150	0
+	+	152	54
+	+	153	0
+	+	152	10
+	+	3	0
+	+	4	14
+	+	22	38
+	+	4	0
+	+	5	0
+	+	154	0
+	+	155	0
+	+	155	11
+	+	155	25
+
+> ~/src/vim-files/NERD_tree_3
+	*	1618061438	0
+	"	4	0
+	.	1	0
+	+	1	0
+
+> ~/src/vim-files/__Tagbar__.1
+	*	1618061435	0
+	"	30	4
+	.	108	0
+	+	211	0
+	+	108	0
+
+> ~/src/vim-files/NERD_tree_2
+	*	1618061384	0
+	"	4	0
+	.	1	0
+	+	1	0
+
+> ~/prog/ruby/log4meal/app/controllers/entries_controller.rb
+	*	1616946352	0
+	"	31	0
+
+> ~/Рабочий стол/NERD_tree_6
+	*	1616941399	0
+	"	31	27
+	.	1	0
+	+	1	0
+
+> ~/prog/ruby/log4meal/app/controllers/archives_controller.rb
+	*	1616941255	0
+	"	14	2
+
+> ~/Рабочий стол/__Tagbar__.1
+	*	1616941210	0
+	"	5	4
+	.	6	0
+	+	6	0
+
+> ~/Рабочий стол/NERD_tree_1
+	*	1616941167	0
+	"	13	0
+	.	1	0
+	+	1	0
+
+> ~/.config/nvim/NERD_tree_1
+	*	1616938554	0
+	"	4	0
+	.	1	0
+	+	1	0
+
+> ~/.config/nvim/install.sh
+	*	1616938179	0
+	"	103	0
+	^	64	1
+	.	64	1
+	+	63	0
+	+	64	1
+
+> ~/.config/nvim/init.lua
+	*	1616937920	0
+	"	57	0
+
+> ~/prog/NERD_tree_1
+	*	1616936006	0
+	"	4	0
+	.	1	0
+	+	1	0
+
+> ~/prog/ruby/NERD_tree_1
+	*	1616935061	0
+	"	17	0
+	.	1	0
+	+	1	0
+
+> ~/prog/ruby/NERD_tree_2
+	*	1616935031	0
+	"	3	0
+	.	1	0
+	+	1	0
+
+> ~/prog/ruby/NERD_tree_3
+	*	1616935015	0
+	"	5	0
+	.	1	0
+	+	1	0
+
+> ~/prog/ruby/appppp/config/NERD_tree_1
+	*	1616180957	0
+	"	13	0
+	.	1	0
+	+	1	0
+
+> ~/prog/ruby/appppp/config/webpack/development.js
+	*	1616180956	0
+	"	4	0
+
+> ~/prog/ruby/appppp/config/routes.rb
+	*	1616180941	0
+	"	1	0
+	^	3	23
+	.	3	23
+	+	4	0
+	+	3	23
+
+> ~/prog/ruby/appppp/app/views/layouts/NERD_tree_1
+	*	1616180934	0
+	"	8	0
+	.	1	0
+	+	1	0
+
+> ~/prog/ruby/appppp/app/channels/application_cable/connection.rb
+	*	1616180932	0
+	"	1	0
+
+> ~/prog/ruby/appppp/app/views/layouts/_notification.html.erb
+	*	1616180918	0
+	"	19	0
+
+> ~/prog/ruby/appppp/app/views/layouts/_header.html.erb
+	*	1616180871	0
+	"	1	0
+
+> ~/prog/ruby/appppp/app/controllers/posts_controller.rb
+	*	1616180862	0
+	"	1	0
+
+> ~/prog/ruby/appppp/app/views/posts/index.html.erb
+	*	1616180851	0
+	"	1	0
+
+> ~/prog/ruby/appppp/app/views/layouts/application.html.erb
+	*	1616180844	0
+	"	15	40
+	.	28	0
+	+	1	0
+	+	21	31
+	+	23	0
+	+	22	7
+	+	25	0
+	+	27	0
+	+	28	0
+
+> ~/.xinitrc
+	*	1616092527	0
+	"	4	0
+	^	4	0
+	.	3	12
+	+	3	12
+
+> ~/.bashrc
+	*	1616088789	0
+	"	146	8
+	^	146	9
+	.	146	9
+	+	12	0
+	+	13	13
+	+	17	0
+	+	144	34
+	+	145	0
+	+	146	0
+	+	148	0
+	+	147	18
+	+	147	28
+	+	149	27
+	+	148	62
+	+	147	0
+	+	146	56
+	+	147	0
+	+	146	9
+
+> ~/prog/ruby/appppp/NERD_tree_2
+	*	1615648002	0
+	"	4	0
+	.	1	0
+	+	1	0
+
+> ~/prog/ruby/appppp/NERD_tree_1
+	*	1615647998	0
+	"	4	0
+	.	1	0
+	+	1	0
+
+> ~/prog/ruby/appppp/db/schema.rb
+	*	1615647636	0
+	"	15	0
+
+> ~/prog/ruby/agrimnast/NERD_tree_1
+	*	1615481961	0
+	"	4	0
+	.	1	0
+	+	1	0
+
+> ~/prog/ruby/agrimnast/.gitignore
+	*	1615481960	0
+	"	3	8
+	^	3	9
+	.	3	8
+	+	1	0
+	+	42	0
+	+	1	18
+	+	2	7
+	+	3	8
+
+> ~/prog/ruby/agrimnast/README.md
+	*	1615481855	0
+	"	1	0
+
+> ~/prog/ruby/agrimnast/config/routes.rb
+	*	1615480614	0
+	"	5	31
+	^	5	32
+	.	5	31
+	+	3	19
+	+	5	31
+
+> ~/prog/ruby/agrimnast/app/controllers/public_controller.rb
+	*	1615480508	0
+	"	3	1
+	^	3	2
+	.	2	11
+	+	2	11
+
+> ~/prog/ruby/agrimnast/NERD_tree_2
+	*	1615480314	0
+	"	4	0
+	.	1	0
+	+	1	0
+
+> ~/prog/ruby/agrimnast/Gemfile
+	*	1615480313	0
+	"	69	0
+	^	69	0
+	.	68	61
+	+	69	0
+	+	68	61
+
+> ~/.zshr
+	*	1615478588	0
+	"	1	0
+
+> ~/prog/ruby/yashop/config/webpack/environment.js
+	*	1615470394	0
+	"	1	0
+	^	2	0
+	.	1	51
+	+	1	27
+	+	1	0
+	+	1	28
+	+	1	51
+	+	12	28
+	+	1	51
+
+> ~/prog/ruby/yashop/config/NERD_tree_1
+	*	1615470344	0
+	"	4	0
+	.	1	0
+	+	1	0
+
+> ~/prog/ruby/blogogolb/NERD_tree_4
+	*	1615467139	0
+	"	4	0
+	.	1	0
+	+	1	0
+
+> ~/prog/ruby/blogogolb/config/storage.yml
+	*	1615467137	0
+	"	34	41
+
+> ~/prog/ruby/blogogolb/config/webpack/environment.js
+	*	1615467116	0
+	"	1	0
+
+> ~/prog/ruby/blogogolb/config/application.rb
+	*	1615467110	0
+	"	3	0
+
+> ~/prog/ruby/blogogolb/NERD_tree_1
+	*	1615467105	0
+	"	9	0
+	.	1	0
+	+	1	0
+
+> ~/prog/ruby/blogogolb/config.ru
+	*	1615467095	0
+	"	1	0
+
+> ~/prog/ruby/blogogolb/NERD_tree_3
+	*	1615467079	0
+	"	4	0
+	.	1	0
+	+	1	0
+
+> ~/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0/psych.rb
+	*	1615467078	0
+	"	456	6
+
+> ~/prog/ruby/blogogolb/Gemfile
+	*	1615467067	0
+	"	56	65
+	^	22	1
+	.	22	0
+	+	22	0
+
+> ~/prog/ruby/blogogolb/README.md
+	*	1615466887	0
+	"	12	0
+	^	12	0
+	.	12	0
+	+	1	0
+	+	1	124
+	+	6	6
+	+	9	1
+	+	9	0
+	+	6	0
+	+	1	124
+	+	7	11
+	+	9	7
+	+	10	5
+	+	9	2
+	+	8	12
+	+	11	0
+	+	1	0
+	+	2	0
+	+	1	10
+	+	3	2
+	+	5	0
+	+	3	13
+	+	12	0
+
+> ~/prog/ruby/blogogolb/.gitignore
+	*	1615466426	0
+	"	3	9
+	^	3	10
+	.	4	0
+	+	1	18
+	+	2	8
+	+	3	0
+	+	16	0
+	+	10	6
+	+	11	0
+	+	3	10
+	+	4	0
+
+> ~/prog/ruby/idtdre/app/views/layouts/application.html.erb
+	*	1615389789	0
+	"	10	0
+
+> ~/prog/ruby/idtdre/app/views/NERD_tree_2
+	*	1615389455	0
+	"	4	0
+	.	1	0
+	+	1	0
+
+> ~/prog/ruby/idtdre/app/views/layouts/_notification.html.erb
+	*	1615389451	0
+	"	16	0
+
+> ~/prog/ruby/idtdre/app/views/NERD_tree_1
+	*	1615389417	0
 	"	7	0
 	.	1	0
 	+	1	0
 
-> ~/NERD_tree_12
-	*	1617805392	0
-	"	4	0
-	.	1	0
-	+	1	0
-
-> ~/NERD_tree_11
-	*	1617805391	0
-	"	4	0
-	.	1	0
-	+	1	0
-
-> ~/NERD_tree_9
-	*	1617805390	0
-	"	4	0
-	.	1	0
-	+	1	0
-
-> ~/NERD_tree_10
-	*	1617805390	0
-	"	4	0
-	.	1	0
-	+	1	0
-
-> ~/NERD_tree_8
-	*	1617805384	0
-	"	4	0
-	.	1	0
-	+	1	0
-
-> ~/NERD_tree_7
-	*	1617805366	0
-	"	11	0
-	.	1	0
-	+	1	0
-
-> ~/NERD_tree_6
-	*	1617805361	0
-	"	1	0
-	.	1	0
-	+	1	0
-
-> /usr/share/vim/vim82/doc/change.txt
-	*	1617805178	0
-	"	203	7
-
-> ~/NERD_tree_5
-	*	1617805100	0
-	"	5	4
-	.	1	0
-	+	1	0
-
-> ~/src/neovim-dots/lua/compe/lua.lua
-	*	1617802975	0
-	"	36	0
-
-> ~/.vim/coc-settings.json
-	*	1617802519	0
+> ~/prog/ruby/idtdre/app/views/public/index.html.erb
+	*	1615389147	0
 	"	1	0
 
-> ~/.vim/mappings.vims
-	*	1617802516	0
+> ~/prog/ruby/yashop/NERD_tree_1
+	*	1615388427	0
+	"	4	0
+	.	1	0
+	+	1	0
+
+> ~/prog/ruby/yashop/config/webpacker.yml
+	*	1615388426	0
+	"	10	2
+	^	10	32
+	.	10	31
+	+	10	31
+
+> ~/prog/ruby/yashop/app/views/layouts/application.html.erb
+	*	1615388375	0
+	"	9	4
+	.	9	0
+	+	10	92
+	+	9	0
+
+> ~/prog/ruby/yashop/app/assets/stylesheets/application.scss
+	*	1615388291	0
+	"	18	0
+	^	18	0
+	.	17	36
+	+	10	0
+	+	1	0
+	+	14	0
+	+	15	3
+	+	17	36
+
+> ~/prog/ruby/yashop/app/javascript/packs/application.js
+	*	1615388239	0
+	"	12	0
+	^	12	0
+	.	11	35
+	+	10	17
+	+	11	35
+
+> ~/prog/sh/files/NERD_tree_1
+	*	1615387831	0
+	"	4	0
+	.	1	0
+	+	1	0
+
+> ~/prog/sh/files/jetbrains-reset.sh
+	*	1615387830	0
+	"	4	0
+	^	4	0
+	.	3	27
+	+	1	4
+	+	2	0
+	+	26	3
+	+	5	17
+	+	3	27
+
+> ~/prog/sh/files/rubymine-reset.sh
+	*	1615387016	0
+	"	14	2
+
+> ~/prog/ruby/yashop/README.md
+	*	1615386079	0
+	"	1	23
+	^	1	24
+	.	1	23
+	+	2	0
+	+	1	89
+	+	1	23
+
+> ~/prog/ruby/yashop/config/environments/production.rb
+	*	1615385740	0
 	"	1	0
 
-> /usr/share/vim/vim82/doc/usr_42.txt
-	*	1617801996	0
-	"	357	59
+> ~/prog/ruby/yashop/config/database.yml
+	*	1615385626	0
+	"	4	0
+	^	4	0
+	.	5	0
+	+	1	0
+	+	2	0
+	+	19	0
+	+	15	0
+	+	13	0
+	+	10	0
+	+	4	0
+	+	5	0
+
+> ~/prog/ruby/yashop/.gitignore
+	*	1615385534	0
+	"	24	0
+	^	35	0
+	.	2	0
+	+	30	15
+	+	32	18
+	+	33	8
+	+	34	9
+	+	2	0
+
+> ~/.config/conky/NERD_tree_1
+	*	1615312175	0
+	"	4	0
+	.	1	0
+	+	1	0
+
+> ~/.config/conky/conky.conf
+	*	1615312174	0
+	"	10	4
+	^	24	4
+	.	10	0
+	+	32	35
+	+	33	0
+	+	13	12
+	+	2	0
+	+	13	14
+	+	14	13
+	+	13	13
+	+	21	17
+	+	22	22
+	+	24	3
+	+	10	0
+
+> ~/.conky/143117-conky_jede/conky_jede/.Conky/startconky.sh
+	*	1615311303	0
+	"	5	33
+
+> ~/.conky/NERD_tree_1
+	*	1615310985	0
+	"	4	0
+	.	1	0
+	+	1	0
+
+> ~/.conky/conky_start.sh
+	*	1615310981	0
+	"	1	0
+
+> ~/prog/sh/JetBrains-evaluation-period-reset/linux/NERD_tree_1
+	*	1614783842	0
+	"	4	0
+	.	1	0
+	+	1	0
+
+> ~/prog/ruby/log4meal_deploy/NERD_tree_1
+	*	1614782497	0
+	"	4	0
+	.	1	0
+	+	1	0
+
+> ~/prog/ruby/log4meal_deploy/config/environments/production.rb
+	*	1614782496	0
+	"	16	43
+	^	16	44
+	.	16	44
+	+	16	44
+
+> ~/prog/ruby/log4meal_deploy/.gitignore
+	*	1614782401	0
+	"	1	1
+	^	30	2
+	.	30	1
+	+	23	1
+	+	27	1
+	+	28	1
+	+	30	1

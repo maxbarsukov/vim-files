@@ -5,14 +5,23 @@ nnoremap <leader>qq <C-W>q
 
 nnoremap <leader>wq :wq<CR>
 
+" NERDTree
 nnoremap <C-n> :NERDTreeToggle<CR>
 
+" Ranger
+" open current file by default
+nnoremap <C-r> :RangerNewTab<CR>
+" Default Ranger behaviour
+nnoremap <C-r>f :RangerCurrentFile<CR>
+nnoremap <C-r>d :RangerCurrentDirectory<CR>
+nnoremap <C-r>w :RangerWorkingDirectory<CR>
+
+
 nnoremap <S-h> :call ToggleHiddenAll()<CR>
-" ^[OQ
+
 nmap <F9> :TagbarToggle<CR>
 
 nmap <ESC>t :hi Normal guibg=NONE ctermbg=NONE<CR>
-
 
 map <F7> :setlocal spell! spelllang=en,ru<CR>
 
@@ -20,7 +29,7 @@ map <Space> <Leader>
 " let mapleader=","
 nnoremap <silent> <C-f> :FZF<CR>
 
-map <S-F2> :terminal<CR>
+map <F3> :terminal<CR>
 map <F2> :vertical terminal<CR>
 tmap <F2> exit<CR>
 
@@ -40,10 +49,10 @@ nnoremap cx a
 inoremap zz <Esc>:
 nnoremap zz <Esc>:
 
-nnoremap <leader><Left> :vertical resize +5<CR>
-nnoremap <leader><Right> :vertical resize -5<CR>
-nnoremap <leader><Down> :resize -5 <CR>
-nnoremap <leader><Up> :resize +5 <CR>
+nnoremap <silent> <leader><Left> :vertical resize +5<CR>
+nnoremap <silent> <leader><Right> :vertical resize -5<CR>
+nnoremap <silent> <leader><Down> :resize -5 <CR>
+nnoremap <silent> <leader><Up> :resize +5 <CR>
 
 nnoremap `j <C-W>j
 nnoremap `k <C-W>k
@@ -52,7 +61,7 @@ nnoremap `l <C-W>l
 nnoremap `q <C-W>q
 nnoremap `w <C-W>w
 " nnoremap `a <C-W>Q
-" nnoremap `V <C-W>V
+nnoremap `v <C-W>v
 nnoremap `s <C-W>s
 
 map <leader>\ :Explore<CR>
@@ -76,6 +85,8 @@ cmap WQ wq
 cmap qw wq
 cmap Qw wq
 cmap QW wq
+
+cmap W w
 
 cmap rv rightb vsp
 cmap lv lefta vsp
@@ -119,8 +130,8 @@ nnoremap <C-j> gT
 nnoremap <C-k> gt
 " Go to last active tab
 au TabLeave * let g:lasttab = tabpagenr()
-nnoremap <silent> <c-l> :exe "tabn ".g:lasttab<cr>
-vnoremap <silent> <c-l> :exe "tabn ".g:lasttab<cr>
+nnoremap <silent> <C-l> :exe "tabn ".g:lasttab<cr>
+vnoremap <silent> <C-l> :exe "tabn ".g:lasttab<cr>
 
 nnoremap ]r :ALENextWrap<CR>     " move to the next ALE warning / error
 nnoremap [r :ALEPreviousWrap<CR> " move to the previous ALE warning / error
@@ -163,11 +174,11 @@ inoremap <expr><S-TAB> pumvisible() ? "\<C-p>" : "\<C-h>"
 " COC.NVIM
 
 " Use <c-space> to trigger completion.
-inoremap <silent><expr> <c-space> coc#refresh()
+inoremap <silent><expr> <C-space> coc#refresh()
 
 " Use <cr> to confirm completion, `<C-g>u` means break undo chain at current position.
 " Coc only does snippet and additional edit on confirm.
-inoremap <expr> <cr> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
+inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
 
 " Use `[c` and `]c` to navigate diagnostics
 nmap <silent> [c <Plug>(coc-diagnostic-prev)
