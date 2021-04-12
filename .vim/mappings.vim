@@ -21,7 +21,7 @@ nnoremap <S-h> :call ToggleHiddenAll()<CR>
 
 nmap <F9> :TagbarToggle<CR>
 
-nmap <ESC>t :hi Normal guibg=NONE ctermbg=NONE<CR>
+nmap <silent> <ESC>t :hi Normal guibg=NONE ctermbg=NONE<CR>
 
 map <F7> :setlocal spell! spelllang=en,ru<CR>
 
