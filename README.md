@@ -13,8 +13,4 @@ These dotfiles were made over several years of working with vim. They use plugin
 
 To install plugins run
 
-`:PlugInstall
-
-
-
-
+`:PlugInstall`
