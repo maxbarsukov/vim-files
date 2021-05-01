@@ -10,7 +10,7 @@ nnoremap <C-n> :NERDTreeToggle<CR>
 
 " Ranger
 " open current file by default
-nnoremap <C-r> :RangerNewTab<CR>
+nnoremap <C-r>r :RangerNewTab<CR>
 " Default Ranger behaviour
 nnoremap <C-r>f :RangerCurrentFile<CR>
 nnoremap <C-r>d :RangerCurrentDirectory<CR>
@@ -20,8 +20,11 @@ nnoremap <C-r>w :RangerWorkingDirectory<CR>
 nnoremap <S-h> :call ToggleHiddenAll()<CR>
 
 nmap <F9> :TagbarToggle<CR>
+imap <F9> :TagbarToggle<CR>
 
-nmap <silent> <ESC>t :hi Normal guibg=NONE ctermbg=NONE<CR>
+nmap <silent> <ESC>t :call Transparent()<CR>
+
+nnoremap gb :ls<CR>:buffer<Space>
 
 map <F7> :setlocal spell! spelllang=en,ru<CR>
 

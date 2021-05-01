@@ -84,8 +84,6 @@ Plug 'junegunn/vim-github-dashboard'
 Plug 'idanarye/vim-merginal'
 Plug 'junegunn/gv.vim'
 Plug 'airblade/vim-gitgutter'
-
-Plug 'nvim-lua/plenary.nvim'
 Plug 'lewis6991/gitsigns.nvim'
 
 " Erlang / Elixir
