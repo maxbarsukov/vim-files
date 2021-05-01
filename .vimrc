@@ -4,7 +4,6 @@
 " 2) TODO tree
 " 3) Projects & etc
 " 4) Num lists
-" 5) set number only in normal mode
 " 6) emoji instead of NORMAL. INSERT, etc
 " 7) Tabman
 " 8) Better status line
@@ -25,7 +24,14 @@ set shiftwidth=4
 set autoindent
 
 set number
-set t_Co=256
+set relativenumber
+
+set noswapfile
+set nobackup
+set nowb
+
+autocmd InsertEnter * :set norelativenumber
+autocmd InsertLeave * :set relativenumber
 
 set encoding=utf8
 set ffs=unix,dos,mac
@@ -63,8 +69,19 @@ set listchars=eol:⏎,tab:··,nbsp:⎵
 
 filetype plugin indent on
 syntax enable
+
 source ~/.vim/mappings.vim
 source ~/.vim/plugs.vim
+
+" ================ Persistent Undo ==================
+" Keep undo history across sessions, by storing in file.
+" Only works all the time.
+if has('persistent_undo')
+  silent !mkdir ~/.vim/backups > /dev/null 2>&1
+  set undodir=~/.vim/backups
+  set undofile
+endif
+
 
 let s:hidden_all = 0
 function! ToggleHiddenAll()
@@ -120,7 +137,7 @@ let g:airline#extensions#clock#updatetime = 1000
 
 let g:ale_linters = {
             \   'python': ['flake8', 'pylint'],
-            \   'ruby' : ['rubocop', 'solargraph'],
+            \   'ruby' : ['rubocop', 'prettier', 'rufo', 'standardrb'],
             \   'javascript': ['eslint'],
             \   'vue': ['eslint']
             \}
@@ -129,26 +146,12 @@ let g:ale_fixers = {
             \    'javascript': ['eslint'],
             \    'typescript': ['prettier', 'tslint'],
             \    'vue': ['eslint'],
-            \    'ruby' : ['rubocop', 'solargraph'],
+            \    'ruby' : ['rubocop', 'standardrb', 'prettier', 'sorbet', 'rufo'],
             \    'scss': ['prettier'],
             \    'html': ['prettier'],
             \    'reason': ['refmt']
             \}
 let g:ale_fix_on_save = 1
-
-
-function! LinterStatus() abort
-    let l:counts = ale#statusline#Count(bufnr(''))
-
-    let l:all_errors = l:counts.error + l:counts.style_error
-    let l:all_non_errors = l:counts.total - l:all_errors
-
-    return l:counts.total == 0 ? '✨ all good ✨' : printf(
-                \   '😞 %dW %dE',
-                \   all_non_errors,
-                \   all_errors
-                \)
-endfunction
 
 let g:airline#extensions#ale#enabled = 1
 let g:ale_sign_column_always = 1
@@ -165,7 +168,7 @@ function! SyntasticCheckHook(errors)
 endfunction
 
 " disable syntastic on the statusline
-let g:statline_syntastic = 0
+let g:statline_syntastic = 1
 
 let g:javascript_plugin_jsdoc = 1
 let g:javascript_plugin_ngdoc = 1
@@ -173,8 +176,9 @@ let g:javascript_plugin_flow = 1
 
 let g:formatprg_args_javascript = "-j -q -B -f -"
 
-let g:ale_sign_error = '>>'
-let g:ale_sign_warning = '--'
+let g:ale_sign_error = '●'
+let g:ale_sign_warning = '.'
+
 highlight clear ALEErrorSign
 highlight clear ALEWarningSign
 let g:airline#extensions#ale#enabled = 1
@@ -245,7 +249,7 @@ au FileType scss setlocal formatprg=prettier\ --parser\ css
 au FileType css setlocal formatprg=prettier\ --parser\ css
 
 
-set conceallevel=1
+set conceallevel=3
 
 
 
@@ -254,30 +258,15 @@ function! LinterStatus() abort
     let l:counts = ale#statusline#Count(bufnr(''))
     let l:all_errors = l:counts.error + l:counts.style_error
     let l:all_non_errors = l:counts.total - l:all_errors
-    return l:counts.total == 0 ? '' : printf(
-                \ 'W:%d E:%d',
-                \ l:all_non_errors,
-                \ l:all_errors
-                \)
-
-
-    set statusline=
-    set statusline+=%m
-    set statusline+=\ %f
-    set statusline+=%=
-    set statusline+=\ %{LinterStatus()}
-
-    set statusline+=%#warningmsg#
-    set statusline+=%{SyntasticStatuslineFlag()}
-    set statusline+=%*
-
-"     set statusline+=%{get(b:,'gitsigns_status','')}
-
-    " let g:deoplete#enable_at_startup = 1
+    return l:counts.total == 0 ? 'OK' : printf(
+        \   '%d⨉ %d⚠ ',
+        \   all_non_errors,
+        \   all_errors
+        \)
 endfunction
 
 
-
+let g:deoplete#enable_at_startup = 1
 
 set laststatus=2
 set statusline=
@@ -290,15 +279,28 @@ set statusline+=\ %m
 set statusline+=\ %F
 set statusline+=%=
 set statusline+=\ %{LinterStatus()}
+
+
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+
+set statusline+=%{get(b:,'gitsigns_status','')}
+
 set statusline+=\ ‹‹
 "set statusline+=\ %{strftime('%R', getftime(expand('%')))}
 set statusline+=\ ::
 set statusline+=\ %n
 set statusline+=\ ››\ %*
 
+function! Transparent()
+    hi Normal guibg=NONE ctermbg=NONE
+    hi CursorLine guibg=NONE ctermbg=NONE
+    hi StatusLine ctermbg=NONE guibg=NONE
 
+    hi airline_c  ctermbg=NONE guibg=NONE
 
-
+    hi airline_tabfill ctermbg=NONE guibg=NONE
+endfunction
 
 set guioptions= "Отключаем панели прокрутки в GUI
 set showtabline=0 "Отключаем панель табов (окошки FTW)
@@ -332,10 +334,10 @@ let &t_EI.="\e[1 q" "EI = нормальный режим
 "5 - мигающая вертикальная черта
 "6 - просто вертикальная черта
 
-let g:ruby_path = '.rvm/rubies/ruby-3.0.0/bin/ruby'
+let g:ruby_path = '.rvm/rubies/ruby-2.7.2/bin/ruby'
 let g:LanguageClient_serverCommands = {
             \ 'javascript': ['javascript-typescript-stdio'],
-            \ 'ruby': ['~/.rbenv/shims/solargraph', 'stdio'],
+            \ 'ruby': ['~/.rvm/gems/ruby-2.7.2@global/gems/rubocop-1.12.1', 'stdio'],
             \ }
 
 let g:slime_target = "vimterminal"
@@ -363,7 +365,7 @@ set shortmess+=c
 
 " always show signcolumns
 set signcolumn=yes
-
+autocmd FileType tagbar,nerdtree setlocal signcolumn=no
 
 function! s:check_back_space() abort
     let col = col('.') - 1
@@ -411,16 +413,8 @@ let g:ranger_command_override = 'ranger --cmd "set show_hidden=true"'
 " DEOPLATE
 " For conceal markers.
 if has('conceal')
-    set conceallevel=2 concealcursor=niv
+    set conceallevel=3 concealcursor=niv
 endif
-
-
-" Emoji
-set completefunc=emoji#complete
-let g:gitgutter_sign_added = emoji#for('small_blue_diamond')
-let g:gitgutter_sign_modified = emoji#for('small_orange_diamond')
-let g:gitgutter_sign_removed = emoji#for('small_red_triangle')
-let g:gitgutter_sign_modified_removed = emoji#for('collision')
 
 
 let g:startify_custom_header = [
@@ -464,6 +458,7 @@ let g:startify_custom_header = [
 colorscheme onedark
 " colorscheme afterglow
 
+
 " Put to colors/afterglow.vim let s:selection = "353535"
 
 " colorscheme onedark
@@ -473,7 +468,7 @@ set background=dark
 let g:airline_theme='onedark'
 " let g:airline_theme='afterglow'
 
-" let g:afterglow_blackout=1
+"let g:afterglow_blackout=1
 " let g:afterglow_italic_comments=1
 " let g:afterglow_inherit_background=1
 " hi Normal guibg=NONE ctermbg=NONE
@@ -493,4 +488,30 @@ highlight ALEError ctermbg=none cterm=underline
 highlight ALEWarning ctermbg=none cterm=underline
 
 let g:ale_completion_autoimport = 1
+
+" Emoji
+set completefunc=emoji#complete
+" let g:gitgutter_sign_added = emoji#for('small_blue_diamond')
+" let g:gitgutter_sign_modified = emoji#for('small_orange_diamond')
+" let g:gitgutter_sign_removed = emoji#for('small_red_triangle')
+" let g:gitgutter_sign_modified_removed = emoji#for('collision')
+
+set t_Co=256
+set termguicolors
+
+let g:gitgutter_set_sign_backgrounds = 0
+let g:gitgutter_sign_allow_clobber = 0
+"hi DiffAdd  term=bold ctermfg=235 ctermbg=114 guifg=#282C34 guibg=#98C379
+
+hi DiffAdd      term=bold ctermfg=114 ctermbg=235 guifg=#98C379 guibg=#282C34
+
+" hi DiffChange   term=bold cterm=underline ctermfg=180 gui=underline guifg=#E5C07B
+" hi DiffDelete   term=bold ctermfg=235 ctermbg=204 guifg=#282C34 guibg=#E06C75
+" hi DiffText     term=reverse ctermfg=235 ctermbg=180 guifg=#282C34 guibg=#E5C07B
+
+hi DiffDelete   term=bold ctermfg=204 ctermbg=235 guifg=#E06C75 guibg=#282C34
+hi DiffText     term=reverse ctermfg=180 ctermbg=235 guifg=#E5C07B guibg=#282C34
+hi DiffChange   term=bold cterm=NONE ctermfg=180 gui=NONE guifg=#E5C07B
+hi Search       term=reverse ctermfg=235 ctermbg=38 guifg=#282C34 guibg=#38b3cc
+hi IncSearch    term=reverse ctermfg=38 ctermbg=59 guifg=#38b3cc guibg=#5C6370
 
