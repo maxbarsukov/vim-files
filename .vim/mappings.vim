@@ -43,8 +43,6 @@ vmap <TAB> >gv
 vmap <S-TAB> <gv
 
 inoremap kj <Esc>
-inoremap jj <Esc>
-inoremap jk <Esc>
 
 nnoremap xx a
 nnoremap xc a
@@ -112,6 +110,11 @@ nnoremap  ""            viw<esc>a"<esc>hbi"<esc>lel
 
 nnoremap  ''            viw<esc>a'<esc>hbi'<esc>lel
 
+" Use <C-L> to clear the highlighting of :set hlsearch.
+if maparg('<C-s>h', 'n') ==# ''
+  nnoremap <silent> <C-s>h :nohlsearch<C-R>=has('diff')?'<Bar>diffupdate':''<CR><CR><C-s>h
+endif
+
 
 " nnoremap <C-Left> :tabprevious<CR>
 " nnoremap <C-Right> :tabnext<CR>
@@ -127,12 +130,12 @@ nnoremap  ''            viw<esc>a'<esc>hbi'<esc>lel
 " http://vim.wikia.com/wiki/Alternative_tab_navigation
 " Tab navigation like Firefox: only 'open new tab' works in terminal
 " move to the previous/next tabpage.
-nnoremap <C-j> gT
-nnoremap <C-k> gt
+nnoremap <C-t>j gT
+nnoremap <C-t>k gt
 " Go to last active tab
 au TabLeave * let g:lasttab = tabpagenr()
-nnoremap <silent> <C-l> :exe "tabn ".g:lasttab<cr>
-vnoremap <silent> <C-l> :exe "tabn ".g:lasttab<cr>
+nnoremap <silent> <C-t>l :exe "tabn ".g:lasttab<cr>
+vnoremap <silent> <C-t>l :exe "tabn ".g:lasttab<cr>
 
 nnoremap ]r :ALENextWrap<CR>     " move to the next ALE warning / error
 nnoremap [r :ALEPreviousWrap<CR> " move to the previous ALE warning / error
