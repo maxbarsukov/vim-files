@@ -132,7 +132,7 @@ Plug 'artur-shaik/vim-javacomplete2'
 
 " Colorschemes
 Plug 'dylanaraps/wal.vim'
-
+Plug 'ghifarit53/tokyonight-vim'
 Plug 'ayu-theme/ayu-vim'
 Plug 'Nequo/vim-allomancer'
 Plug 'chasinglogic/ChasingLogic-colorscheme-vim'

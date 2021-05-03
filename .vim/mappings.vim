@@ -39,6 +39,10 @@ tmap <F2> exit<CR>
 
 map <F4> :QuickRun<CR>
 
+nnoremap <C-t>1 :call Colorscheme1()<CR>
+nnoremap <C-t>2 :call Colorscheme2()<CR>
+nnoremap <C-t>3 :call Colorscheme3()<CR>
+
 vmap <TAB> >gv
 vmap <S-TAB> <gv
 
@@ -111,10 +115,9 @@ nnoremap  ""            viw<esc>a"<esc>hbi"<esc>lel
 nnoremap  ''            viw<esc>a'<esc>hbi'<esc>lel
 
 " Use <C-L> to clear the highlighting of :set hlsearch.
-if maparg('<C-s>h', 'n') ==# ''
-  nnoremap <silent> <C-s>h :nohlsearch<C-R>=has('diff')?'<Bar>diffupdate':''<CR><CR><C-s>h
+if maparg('<C-L>', 'n') ==# ''
+  nnoremap <silent> <C-L> :nohlsearch<C-R>=has('diff')?'<Bar>diffupdate':''<CR><CR><C-L>
 endif
-
 
 " nnoremap <C-Left> :tabprevious<CR>
 " nnoremap <C-Right> :tabnext<CR>
@@ -130,8 +133,8 @@ endif
 " http://vim.wikia.com/wiki/Alternative_tab_navigation
 " Tab navigation like Firefox: only 'open new tab' works in terminal
 " move to the previous/next tabpage.
-nnoremap <C-t>j gT
-nnoremap <C-t>k gt
+nnoremap <C-t>h gT
+nnoremap <C-t>l gt
 " Go to last active tab
 au TabLeave * let g:lasttab = tabpagenr()
 nnoremap <silent> <C-t>l :exe "tabn ".g:lasttab<cr>
@@ -173,7 +176,6 @@ map <leader>g :exec &conceallevel ? "set conceallevel=0" : "set conceallevel=1"<
 "       \ <SID>check_back_space() ? "\<TAB>" :
 "       \ coc#refresh()
 inoremap <expr><S-TAB> pumvisible() ? "\<C-p>" : "\<C-h>"
-
 
 " COC.NVIM
 
