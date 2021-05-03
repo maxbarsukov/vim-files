@@ -6,8 +6,8 @@ These dotfiles were made over several years of working with vim. They use plugin
 
 ## Screenshots
 
-![Start screen](docs/images/gh-vim-1.png)
-![Editing file](docs/images/gh-vim-2.png)
+![Start screen](docs/images/vim-1.png)
+![Editing file](docs/images/vim-2.png)
 
 ## Installation
 
