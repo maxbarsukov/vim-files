@@ -1,14 +1,3 @@
-"TODO
-"
-" 1) TODO highlighting
-" 2) TODO tree
-" 3) Projects & etc
-" 4) Num lists
-" 6) emoji instead of NORMAL. INSERT, etc
-" 7) Tabman
-" 8) Better status line
-"
-
 set nocompatible
 
 syntax on
@@ -490,23 +479,67 @@ let g:startify_custom_header = [
  " \]
 
 " Colorscheme
-colorscheme onedark
+
+set t_Co=256
+set termguicolors
+
+" colorscheme onedark
 " colorscheme afterglow
 
+set termguicolors
 
-" Put to colors/afterglow.vim let s:selection = "353535"
+" let g:tokyonight_style = 'night' " available: night, storm
+let g:tokyonight_enable_italic = 1
+
+colorscheme tokyonight
+" let g:tokyonight_transparent_background = 1
+" let g:tokyonight_cursor = 'red'
+" let g:tokyonight_menu_selection_background = 'blue'
+" let g:tokyonight_current_word = 'bold'
+
+" put to colors/afterglow.vim let s:selection = "353535"
 
 " colorscheme onedark
 set background=dark
 " set background=light
 
-let g:airline_theme='onedark'
+"let g:airline_theme='onedark'
+let g:airline_theme='tokyonight'
 " let g:airline_theme='afterglow'
 
 "let g:afterglow_blackout=1
 " let g:afterglow_italic_comments=1
 " let g:afterglow_inherit_background=1
-" hi Normal guibg=NONE ctermbg=NONE
+" hi normal guibg=none ctermbg=n'ne
+
+
+function! Colorscheme1()
+    set termguicolors
+    " let g:tokyonight_style = 'night' " available: night, storm
+    let g:tokyonight_enable_italic = 1
+
+    colorscheme tokyonight
+    " let g:tokyonight_transparent_background = 1
+    " let g:tokyonight_cursor = 'red'
+    " let g:tokyonight_menu_selection_background = 'blue'
+    " let g:tokyonight_current_word = 'bold'
+    set background=dark
+    let g:airline_theme='tokyonight'
+endfunction
+
+
+function! Colorscheme2()
+    colorscheme onedark
+    let g:airline_theme='onedark'
+endfunction
+
+function! Colorscheme3()
+    colorscheme afterglow
+    let g:airline_theme='afterglow'
+    let g:afterglow_blackout=1
+    let g:afterglow_italic_comments=1
+    " let g:afterglow_inherit_background=1
+endfunction
 
 " Font
 " Also need Meslo for icons https://github.com/andreberg/Meslo-Font
@@ -531,22 +564,25 @@ set completefunc=emoji#complete
 " let g:gitgutter_sign_removed = emoji#for('small_red_triangle')
 " let g:gitgutter_sign_modified_removed = emoji#for('collision')
 
-set t_Co=256
-set termguicolors
 
 let g:gitgutter_set_sign_backgrounds = 0
 let g:gitgutter_sign_allow_clobber = 0
-"hi DiffAdd  term=bold ctermfg=235 ctermbg=114 guifg=#282C34 guibg=#98C379
 
-hi DiffAdd      term=bold ctermfg=114 ctermbg=235 guifg=#98C379 guibg=#282C34
+" function! SetColors()
+"   " hi DiffAdd  term=bold ctermfg=235 ctermbg=114 guifg=#282C34 guibg=#98C379
+"   hi DiffAdd      term=bold ctermfg=114 ctermbg=235 guifg=#98C379 guibg=#282C34
 
-" hi DiffChange   term=bold cterm=underline ctermfg=180 gui=underline guifg=#E5C07B
-" hi DiffDelete   term=bold ctermfg=235 ctermbg=204 guifg=#282C34 guibg=#E06C75
-" hi DiffText     term=reverse ctermfg=235 ctermbg=180 guifg=#282C34 guibg=#E5C07B
+"   " hi DiffChange   term=bold cterm=underline ctermfg=180 gui=underline guifg=#E5C07B
+"   " hi DiffDelete   term=bold ctermfg=235 ctermbg=204 guifg=#282C34 guibg=#E06C75
+"   " hi DiffText     term=reverse ctermfg=235 ctermbg=180 guifg=#282C34 guibg=#E5C07B
 
-hi DiffDelete   term=bold ctermfg=204 ctermbg=235 guifg=#E06C75 guibg=#282C34
-hi DiffText     term=reverse ctermfg=180 ctermbg=235 guifg=#E5C07B guibg=#282C34
-hi DiffChange   term=bold cterm=NONE ctermfg=180 gui=NONE guifg=#E5C07B
-hi Search       term=reverse ctermfg=235 ctermbg=38 guifg=#282C34 guibg=#38b3cc
-hi IncSearch    term=reverse ctermfg=38 ctermbg=59 guifg=#38b3cc guibg=#5C6370
+"   hi DiffDelete   term=bold ctermfg=204 ctermbg=235 guifg=#E06C75 guibg=#282C34
+"   hi DiffText     term=reverse ctermfg=180 ctermbg=235 guifg=#E5C07B guibg=#282C34
+"   hi DiffChange   term=bold cterm=NONE ctermfg=180 gui=NONE guifg=#E5C07B
+"   hi Search       term=reverse ctermfg=235 ctermbg=38 guifg=#282C34 guibg=#38b3cc
+"   hi IncSearch    term=reverse ctermfg=38 ctermbg=59 guifg=#38b3cc guibg=#5C6370
+" endfunction
+
+" call SetColors()
+
 
